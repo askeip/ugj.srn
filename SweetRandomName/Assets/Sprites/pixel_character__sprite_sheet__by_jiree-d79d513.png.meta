@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: bb887b0b8672ca14190e6b579c36b790
+timeCreated: 1459844097
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pixel_character__sprite_sheet__by_jiree-d79d513_0
+    21300002: pixel_character__sprite_sheet__by_jiree-d79d513_1
+    21300004: pixel_character__sprite_sheet__by_jiree-d79d513_2
+    21300006: pixel_character__sprite_sheet__by_jiree-d79d513_3
+    21300008: pixel_character__sprite_sheet__by_jiree-d79d513_4
+    21300010: pixel_character__sprite_sheet__by_jiree-d79d513_5
+    21300012: pixel_character__sprite_sheet__by_jiree-d79d513_6
+    21300014: pixel_character__sprite_sheet__by_jiree-d79d513_7
+    21300016: pixel_character__sprite_sheet__by_jiree-d79d513_8
+    21300018: pixel_character__sprite_sheet__by_jiree-d79d513_13
+    21300020: pixel_character__sprite_sheet__by_jiree-d79d513_14
+    21300022: pixel_character__sprite_sheet__by_jiree-d79d513_15
+    21300024: pixel_character__sprite_sheet__by_jiree-d79d513_16
+    21300026: pixel_character__sprite_sheet__by_jiree-d79d513_21
+    21300028: pixel_character__sprite_sheet__by_jiree-d79d513_22
+    21300030: pixel_character__sprite_sheet__by_jiree-d79d513_34
+    21300032: pixel_character__sprite_sheet__by_jiree-d79d513_35
+    21300034: pixel_character__sprite_sheet__by_jiree-d79d513_48
+    21300036: pixel_character__sprite_sheet__by_jiree-d79d513_49
+    21300038: pixel_character__sprite_sheet__by_jiree-d79d513_50
+    21300040: pixel_character__sprite_sheet__by_jiree-d79d513_60
+    21300042: pixel_character__sprite_sheet__by_jiree-d79d513_61
+    21300044: pixel_character__sprite_sheet__by_jiree-d79d513_62
+    21300046: pixel_character__sprite_sheet__by_jiree-d79d513_63
+    21300048: pixel_character__sprite_sheet__by_jiree-d79d513_64
+    21300050: pixel_character__sprite_sheet__by_jiree-d79d513_69
+    21300052: pixel_character__sprite_sheet__by_jiree-d79d513_70
+    21300054: pixel_character__sprite_sheet__by_jiree-d79d513_71
+    21300056: pixel_character__sprite_sheet__by_jiree-d79d513_72
+    21300058: pixel_character__sprite_sheet__by_jiree-d79d513_73
+    21300060: pixel_character__sprite_sheet__by_jiree-d79d513_74
+    21300062: pixel_character__sprite_sheet__by_jiree-d79d513_82
+    21300064: pixel_character__sprite_sheet__by_jiree-d79d513_83
+    21300066: pixel_character__sprite_sheet__by_jiree-d79d513_84
+    21300068: pixel_character__sprite_sheet__by_jiree-d79d513_85
+    21300070: pixel_character__sprite_sheet__by_jiree-d79d513_86
+    21300072: pixel_character__sprite_sheet__by_jiree-d79d513_87
+    21300074: pixel_character__sprite_sheet__by_jiree-d79d513_93
+    21300076: pixel_character__sprite_sheet__by_jiree-d79d513_94
+    21300078: pixel_character__sprite_sheet__by_jiree-d79d513_95
+    21300080: pixel_character__sprite_sheet__by_jiree-d79d513_96
+    21300082: pixel_character__sprite_sheet__by_jiree-d79d513_97
+    21300084: pixel_character__sprite_sheet__by_jiree-d79d513_98
+    21300086: pixel_character__sprite_sheet__by_jiree-d79d513_99
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 705
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 705
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -20, y: 23}
+        - {x: -20, y: 6}
+        - {x: -13, y: -30}
+        - {x: -12, y: -31}
+        - {x: 13, y: -31}
+        - {x: 20, y: -11}
+        - {x: 20, y: 28}
+        - {x: 19, y: 31}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 705
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -20, y: 26.5}
+        - {x: -20, y: -5.5}
+        - {x: -14, y: -31.5}
+        - {x: 15, y: -31.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 28.5}
+        - {x: 19, y: 31.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 705
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -20, y: 23}
+        - {x: -20, y: 6}
+        - {x: -13, y: -30}
+        - {x: -12, y: -31}
+        - {x: 13, y: -31}
+        - {x: 20, y: -11}
+        - {x: 20, y: 28}
+        - {x: 19, y: 31}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 705
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 705
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -20, y: 23}
+        - {x: -20, y: 6}
+        - {x: -13, y: -30}
+        - {x: -12, y: -31}
+        - {x: 13, y: -31}
+        - {x: 20, y: -11}
+        - {x: 20, y: 28}
+        - {x: 19, y: 31}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 705
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -20, y: 26.5}
+        - {x: -20, y: -5.5}
+        - {x: -14, y: -31.5}
+        - {x: 15, y: -31.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 28.5}
+        - {x: 19, y: 31.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 705
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -20, y: 23}
+        - {x: -20, y: 6}
+        - {x: -13, y: -30}
+        - {x: -12, y: -31}
+        - {x: 13, y: -31}
+        - {x: 20, y: -11}
+        - {x: 20, y: 28}
+        - {x: 19, y: 31}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 705
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 631
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 30.5}
+        - {x: -20, y: 30.5}
+        - {x: -20, y: -30.5}
+        - {x: 16, y: -30.5}
+        - {x: 17, y: -29.5}
+        - {x: 20, y: -15.5}
+        - {x: 20, y: 29.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 631
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 31.5}
+        - {x: -20, y: -21.5}
+        - {x: -17, y: -31.5}
+        - {x: 15, y: -31.5}
+        - {x: 20, y: -21.5}
+        - {x: 20, y: 31.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 631
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30.5}
+        - {x: -20, y: 28.5}
+        - {x: -20, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 20, y: -26.5}
+        - {x: 20, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 631
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 31.5}
+        - {x: -20, y: 28.5}
+        - {x: -20, y: -20.5}
+        - {x: -18, y: -31.5}
+        - {x: 12, y: -31.5}
+        - {x: 20, y: -8.5}
+        - {x: 20, y: 29.5}
+        - {x: 19, y: 31.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 549
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 29}
+        - {x: -20.5, y: 24}
+        - {x: -20.5, y: -9}
+        - {x: -12.5, y: -21}
+        - {x: -5.5, y: -29}
+        - {x: 14.5, y: -29}
+        - {x: 20.5, y: -17}
+        - {x: 20.5, y: 23}
+        - {x: 16.5, y: 29}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 547
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 30}
+        - {x: -20.5, y: -12}
+        - {x: -14.5, y: -30}
+        - {x: 10.5, y: -30}
+        - {x: 20.5, y: -8}
+        - {x: 20.5, y: 29}
+        - {x: 17.5, y: 30}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 480
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 29}
+        - {x: -20.5, y: 23}
+        - {x: -20.5, y: 0}
+        - {x: -8.5, y: -29}
+        - {x: 13.5, y: -29}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 27}
+        - {x: 14.5, y: 29}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 29}
+        - {x: -20.5, y: 25}
+        - {x: -20.5, y: -2}
+        - {x: -13.5, y: -29}
+        - {x: 11.5, y: -29}
+        - {x: 20.5, y: -6}
+        - {x: 20.5, y: 27}
+        - {x: 14.5, y: 29}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 398
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 401
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 30}
+        - {x: -16, y: 30}
+        - {x: -20, y: 26}
+        - {x: -20, y: -11}
+        - {x: -17, y: -29}
+        - {x: -15, y: -30}
+        - {x: 18, y: -30}
+        - {x: 20, y: -24}
+        - {x: 20, y: 23}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_50
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 398
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_60
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 305
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_61
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 307
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 30}
+        - {x: -16, y: 30}
+        - {x: -20, y: 28}
+        - {x: -20, y: -30}
+        - {x: 13, y: -30}
+        - {x: 18, y: -16}
+        - {x: 20, y: -2}
+        - {x: 20, y: 25}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_62
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 308
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 30}
+        - {x: -20.5, y: -27}
+        - {x: -19.5, y: -30}
+        - {x: 20.5, y: -30}
+        - {x: 20.5, y: 28}
+        - {x: 16.5, y: 30}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_63
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 307
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 30}
+        - {x: -20, y: 28}
+        - {x: -20, y: -30}
+        - {x: 17, y: -30}
+        - {x: 20, y: -12}
+        - {x: 20, y: 30}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_64
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 305
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_69
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 4
+        width: 240
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 11}
+        - {x: 120, y: 35}
+        - {x: 120, y: 141}
+        - {x: 77, y: 182}
+        - {x: 67, y: 183}
+        - {x: -54, y: 183}
+        - {x: -119, y: 137}
+        - {x: -120, y: 129}
+        - {x: -120, y: 46}
+        - {x: -116, y: 29}
+        - {x: -68, y: -10}
+        - {x: -72, y: -98}
+        - {x: -60, y: -183}
+        - {x: -26, y: -183}
+        - {x: -17, y: -181}
+        - {x: -8, y: -173}
+        - {x: -2, y: -139}
+        - {x: 0, y: -160}
+        - {x: -11, y: -182}
+        - {x: -1, y: -183}
+        - {x: 43, y: -183}
+        - {x: 46, y: -178}
+        - {x: 70, y: -105}
+        - {x: 62, y: -38}
+      - - {x: -120, y: -151}
+        - {x: -120, y: -159}
+        - {x: -117, y: -159}
+        - {x: -115, y: -157}
+        - {x: -115, y: -155}
+        - {x: -119, y: -151}
+      - - {x: -120, y: -141}
+        - {x: -119, y: -141}
+        - {x: -115, y: -137}
+        - {x: -116, y: -134}
+        - {x: -120, y: -134}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_70
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 211
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_71
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 213
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 30}
+        - {x: -16, y: 30}
+        - {x: -20, y: 27}
+        - {x: -20, y: -14}
+        - {x: -17, y: -30}
+        - {x: 15, y: -30}
+        - {x: 20, y: -8}
+        - {x: 20, y: 29}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_72
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 214
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 30}
+        - {x: -20, y: 22}
+        - {x: -20, y: -27}
+        - {x: -19, y: -30}
+        - {x: 20, y: -30}
+        - {x: 20, y: 30}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_73
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 213
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 30}
+        - {x: -20, y: 26}
+        - {x: -20, y: -30}
+        - {x: 14, y: -30}
+        - {x: 20, y: -2}
+        - {x: 20, y: 23}
+        - {x: 14, y: 30}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_74
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 211
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_82
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 115
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_83
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 115
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 29.5}
+        - {x: -21.5, y: -10.5}
+        - {x: -13.5, y: -29.5}
+        - {x: 14.5, y: -29.5}
+        - {x: 21.5, y: -4.5}
+        - {x: 21.5, y: 29.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_84
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 115
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 27.5}
+        - {x: -19.5, y: 24.5}
+        - {x: -19.5, y: -16.5}
+        - {x: -7.5, y: -27.5}
+        - {x: 19.5, y: -27.5}
+        - {x: 19.5, y: 23.5}
+        - {x: 14.5, y: 27.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_85
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 115
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 0.5}
+        - {x: 13.5, y: 16.5}
+        - {x: 6.5, y: 25.5}
+        - {x: -13.5, y: 25.5}
+        - {x: -23.5, y: 18.5}
+        - {x: -23.5, y: -10.5}
+        - {x: -2.5, y: -25.5}
+        - {x: 23.5, y: -25.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_86
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 115
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 23}
+        - {x: -26, y: -18}
+        - {x: -16, y: -23}
+        - {x: 26, y: -23}
+        - {x: 26, y: 8}
+        - {x: 6, y: 23}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_87
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 115
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 19.5}
+        - {x: -29, y: -17.5}
+        - {x: -25, y: -19.5}
+        - {x: 29, y: -19.5}
+        - {x: 29, y: -6.5}
+        - {x: 1, y: 19.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_93
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30.5}
+        - {x: -20, y: 27.5}
+        - {x: -20, y: -30.5}
+        - {x: 20, y: -30.5}
+        - {x: 20, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_95
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 16
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 30.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -20.5, y: -15.5}
+        - {x: -11.5, y: -30.5}
+        - {x: 9.5, y: -30.5}
+        - {x: 15.5, y: -24.5}
+        - {x: 20.5, y: -1.5}
+        - {x: 20.5, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: -23.5}
+        - {x: -17, y: -30.5}
+        - {x: 11, y: -30.5}
+        - {x: 20, y: -10.5}
+        - {x: 20, y: 28.5}
+        - {x: 19, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_97
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 16
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 30.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -20.5, y: -15.5}
+        - {x: -11.5, y: -30.5}
+        - {x: 9.5, y: -30.5}
+        - {x: 15.5, y: -24.5}
+        - {x: 20.5, y: -1.5}
+        - {x: 20.5, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_98
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30.5}
+        - {x: -20, y: 27.5}
+        - {x: -20, y: -30.5}
+        - {x: 20, y: -30.5}
+        - {x: 20, y: 30.5}
+    - name: pixel_character__sprite_sheet__by_jiree-d79d513_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -20, y: 22.5}
+        - {x: -20, y: 5.5}
+        - {x: -12, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 27.5}
+        - {x: 19, y: 30.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
