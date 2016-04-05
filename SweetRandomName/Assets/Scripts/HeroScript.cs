@@ -11,8 +11,10 @@ public class HeroScript : MonoBehaviour
 
 	bool grounded = false;
 	public Transform groundCheck;
-	float groundRadius = 0.2f;
+	float groundRadius = 0.1f;
 	public LayerMask whatIsGround;
+
+	bool gameOver;
 
 	void Start()
 	{
@@ -21,18 +23,30 @@ public class HeroScript : MonoBehaviour
 
 	void Update()
 	{
+		if (gameOver) 
+		{
+			return;
+		}
 		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
 		{
 			playerRigidbody2D.velocity = new Vector2(playerRigidbody2D.velocity.x, ySpeed);
 		}
 	}
 
+
+
 	void FixedUpdate()
 	{
-		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+		if (gameOver) 
+		{
+			playerRigidbody2D.gravityScale = -1;
+			playerRigidbody2D.velocity = new Vector2 (0, 0);
+			return;
+		}//grounded = Physics2D.OverlapCircle (groundCheck.position,groundRadius, whatIsGround);
+
+		grounded = Physics2D.OverlapArea (groundCheck.position, new Vector2(groundCheck.position.x + 0.01f, groundCheck.position.y - groundRadius), whatIsGround);//, groundRadius, whatIsGround);
 
 		float xMove = Input.GetAxis ("Horizontal");
-
 
 		playerRigidbody2D.velocity = new Vector2 (xSpeed * xMove,playerRigidbody2D.velocity.y);
 
@@ -48,5 +62,13 @@ public class HeroScript : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "Abyss") 
+		{
+			gameOver = true;
+		}
 	}
 }
