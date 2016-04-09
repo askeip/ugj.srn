@@ -14,12 +14,11 @@ public class Changable : WorldObject {
 	}
 
 	protected void ChangeWorld() {
-		collider.enabled = world.CurWorld == activeWorld;
 		foreach (var sprite in sprites)
 		{
 			var color = sprite.color;
 			if (world.CurWorld != activeWorld)
-				color.a = 0.1f;
+				color.a = 0.4f;
 			else
 				color.a = 1f;
 			sprite.color = color;

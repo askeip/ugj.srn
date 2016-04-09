@@ -14,7 +14,8 @@ public class HeroScript : WorldObject
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
     public int hp;
-	private Vector3 initPosition;
+    private Vector3 initPosition;
+    private Vector3 initVelocity;
 	private World world;
 	
 	
@@ -23,6 +24,7 @@ public class HeroScript : WorldObject
         hp = 1;
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
 		initPosition = transform.position;
+        initVelocity = new Vector2(0, 0);
 		playerRigidbody2D = GetComponent<Rigidbody2D>();
 	}
 
@@ -43,12 +45,12 @@ public class HeroScript : WorldObject
 
 	public override void Reset() {
 		transform.position = initPosition;
+        playerRigidbody2D.velocity = initVelocity;
 	}
 	
 	void FixedUpdate()
 	{
-		
-		grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius / 2, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius / 2, groundCheck.position.y - groundRadius), whatIsGround);//, groundRadius, whatIsGround);
+		grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius / 2, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius / 2, groundCheck.position.y - groundRadius), whatIsGround);
 		
 		float xMove = Input.GetAxis("Horizontal");
 		
@@ -74,14 +76,12 @@ public class HeroScript : WorldObject
 		{
 			GameOver();
 		}
-        /*
-        if (other.gameObject is Monster)
+        if (other.tag == "Monster")
         {
-            var obj = other.gameObject as Monster;
+            var obj = other.gameObject.GetComponent<Monster>();
             hp -= obj.damage;
             if (hp <= 0)
                 GameOver();
         }
-        */
 	}
 }
