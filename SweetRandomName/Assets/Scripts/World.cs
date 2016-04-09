@@ -2,8 +2,8 @@
 using System.Collections;
 
 public enum Worlds {
-	NormalWorld,
-	DarkWorld,
+	NormalWorld = 8,
+	DarkWorld = 9,
 }
 
 public class World : MonoBehaviour {
@@ -11,6 +11,7 @@ public class World : MonoBehaviour {
 
 	void Start () {
 		CurWorld = Worlds.NormalWorld;
+        Physics2D.IgnoreLayerCollision((int)Worlds.NormalWorld, (int)Worlds.DarkWorld);
 	}
 
 	public void ChangeWorld() {
