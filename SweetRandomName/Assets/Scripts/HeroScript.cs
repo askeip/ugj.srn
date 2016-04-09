@@ -13,12 +13,14 @@ public class HeroScript : WorldObject
 	public Transform groundCheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
+    public int hp;
 	private Vector3 initPosition;
 	private World world;
 	
 	
 	void Start()
 	{
+        hp = 1;
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
 		initPosition = transform.position;
 		playerRigidbody2D = GetComponent<Rigidbody2D>();
@@ -46,7 +48,7 @@ public class HeroScript : WorldObject
 	void FixedUpdate()
 	{
 		
-		grounded = Physics2D.OverlapArea (new Vector2(groundCheck.position.x - groundRadius / 2, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius / 2, groundCheck.position.y - groundRadius), whatIsGround);//, groundRadius, whatIsGround);
+		grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius / 2, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius / 2, groundCheck.position.y - groundRadius), whatIsGround);//, groundRadius, whatIsGround);
 		
 		float xMove = Input.GetAxis("Horizontal");
 		
@@ -72,5 +74,14 @@ public class HeroScript : WorldObject
 		{
 			GameOver();
 		}
+        /*
+        if (other.gameObject is Monster)
+        {
+            var obj = other.gameObject as Monster;
+            hp -= obj.damage;
+            if (hp <= 0)
+                GameOver();
+        }
+        */
 	}
 }

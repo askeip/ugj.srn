@@ -23,7 +23,6 @@ public class Changable : WorldObject {
 			else
 				color.a = 1f;
 			sprite.color = color;
-			//sprite.enabled = world.CurWorld == activeWorld;
 		}
 	}
 }

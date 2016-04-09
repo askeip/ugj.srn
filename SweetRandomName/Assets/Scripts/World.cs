@@ -9,7 +9,7 @@ public enum Worlds {
 public class World : MonoBehaviour {
 	public Worlds CurWorld { get; private set; }
 
-	void Start () {
+	void Start() {
 		CurWorld = Worlds.NormalWorld;
         Physics2D.IgnoreLayerCollision((int)Worlds.NormalWorld, (int)Worlds.DarkWorld);
 	}
