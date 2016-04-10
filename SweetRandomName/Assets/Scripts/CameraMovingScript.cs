@@ -26,7 +26,6 @@ public class CameraMovingScript : WorldObject
         {
             var moveTemp = player.transform.position;
             moveTemp.z = transform.position.z;
-            //moveTemp.y = transform.position.y;
             transform.position = Vector3.MoveTowards(transform.position, moveTemp, playerScript.xSpeed * Time.deltaTime);
         }
     }

@@ -13,7 +13,7 @@ public class HeroScript : WorldObject
 	
 	bool grounded = false;
 	public Transform groundCheck;
-	float groundRadius = 0.2f;
+	float groundRadius = 0.1f;
 
     public LayerMask NormalLayer;
     public LayerMask DarkLayer;
@@ -71,7 +71,7 @@ public class HeroScript : WorldObject
 
 	void FixedUpdate()
 	{
-        grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius / 2, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius / 2, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
+        grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
 		float xMove = Input.GetAxis("Horizontal");
 		
         playerRigidbody2D.velocity = new Vector2 (xSpeed * xMove,playerRigidbody2D.velocity.y);
