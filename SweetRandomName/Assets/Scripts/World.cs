@@ -5,7 +5,6 @@ public enum Worlds {
 	NormalWorld = 8,
 	DarkWorld = 9
 }
-        
 
 public class World : MonoBehaviour {
     const int playerLayer = 11;
