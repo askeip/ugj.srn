@@ -2,9 +2,10 @@
 using System.Collections;
 using System;
 
-public class CameraMovingScript : MonoBehaviour 
+public class CameraMovingScript : WorldObject
 {
     public GameObject player;
+    private HeroScript playerScript;
 
     private Vector3 offset;
 
@@ -13,6 +14,7 @@ public class CameraMovingScript : MonoBehaviour
 
     public void Start()
     {
+        playerScript = player.GetComponent<HeroScript>();
         offset = transform.position - player.transform.position;
     }
 
@@ -20,12 +22,17 @@ public class CameraMovingScript : MonoBehaviour
     {
         var xDif = Math.Abs(player.transform.position.x - transform.position.x);
         var yDif = Math.Abs(player.transform.position.y - transform.position.y);
-        if (xDif > maxDifX)
+        if (xDif > maxDifX || yDif > maxDifY)
         {
             var moveTemp = player.transform.position;
             moveTemp.z = transform.position.z;
-            moveTemp.y = transform.position.y;
-            transform.position = Vector3.MoveTowards(transform.position, moveTemp, 1.5f * Time.deltaTime);
+            //moveTemp.y = transform.position.y;
+            transform.position = Vector3.MoveTowards(transform.position, moveTemp, playerScript.xSpeed * Time.deltaTime);
         }
+    }
+
+    public override void Reset()
+    {
+        transform.position = player.transform.position + offset;
     }
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b93cdecb6fef70642848187b3a7a5e3c
-timeCreated: 1460225092
+timeCreated: 1460278298
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,10 @@ TextureImporter:
     21300016: NewPlatformBlue 5
     21300018: NewPlatformBlue 6
     21300020: NewPlatformBlue 7
+    21300022: NewPlatformBlue 8
+    21300024: NewPlatformBlue 9
+    21300026: NewPlatformBlue 10
+    21300028: NewPlatformBlue 11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -65,7 +69,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
@@ -81,7 +85,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
@@ -97,7 +101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
@@ -113,7 +117,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
@@ -129,7 +133,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -145,7 +149,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -161,7 +165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -177,7 +181,71 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28}
+        - {x: -12, y: 4}
+        - {x: 12, y: 4}
+        - {x: 12, y: 26}
+        - {x: 10, y: 28}
+    - name: NewPlatformBlue 8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28}
+        - {x: -12, y: 4}
+        - {x: 12, y: 4}
+        - {x: 12, y: 26}
+        - {x: 10, y: 28}
+    - name: NewPlatformBlue 9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28}
+        - {x: -12, y: 4}
+        - {x: 12, y: 4}
+        - {x: 12, y: 26}
+        - {x: 10, y: 28}
+    - name: NewPlatformBlue 10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28}
+        - {x: -12, y: 4}
+        - {x: 12, y: 4}
+        - {x: 12, y: 26}
+        - {x: 10, y: 28}
+    - name: NewPlatformBlue 11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
         width: 32
         height: 32
       alignment: 7

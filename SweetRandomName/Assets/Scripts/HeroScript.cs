@@ -22,16 +22,22 @@ public class HeroScript : WorldObject
     private Vector3 initPosition;
     private Vector3 initVelocity;
 	private World world;
+
+    private Animator animator;
+    public RuntimeAnimatorController normalAnimController;
+    public RuntimeAnimatorController darkAnimController;
 	
 	
 	void Start()
 	{
+        animator = gameObject.GetComponent<Animator>();
         hp = 1;
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
 		initPosition = transform.position;
         initVelocity = new Vector2(0, 0);
 		playerRigidbody2D = GetComponent<Rigidbody2D>();
         CreateWorldLayerDict();
+        animator.runtimeAnimatorController = normalAnimController;
 	}
 
     private void CreateWorldLayerDict()
@@ -45,6 +51,7 @@ public class HeroScript : WorldObject
 	{
 		if (Input.GetKeyDown(KeyCode.Tab)) {
 			world.ChangeWorld();
+            animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? normalAnimController : darkAnimController;
 		}
 		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
 		{
@@ -59,15 +66,15 @@ public class HeroScript : WorldObject
 	public override void Reset() {
 		transform.position = initPosition;
         playerRigidbody2D.velocity = initVelocity;
+        animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? normalAnimController : darkAnimController;
 	}
-	
+
 	void FixedUpdate()
 	{
         grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius / 2, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius / 2, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
-		
 		float xMove = Input.GetAxis("Horizontal");
 		
-		playerRigidbody2D.velocity = new Vector2 (xSpeed * xMove,playerRigidbody2D.velocity.y);
+        playerRigidbody2D.velocity = new Vector2 (xSpeed * xMove,playerRigidbody2D.velocity.y);
 		
 		if (xMove > 0 && !facingRight)
 			Flip ();
