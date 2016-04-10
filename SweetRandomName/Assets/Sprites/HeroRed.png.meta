@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0f94b5052eb19b141956c902030897f9
-timeCreated: 1460223529
+timeCreated: 1460306271
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -69,14 +69,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -7, y: 26}
-        - {x: -11, y: 20}
-        - {x: -11, y: 9}
-        - {x: -6, y: 7}
-        - {x: 8, y: 7}
-        - {x: 10, y: 9}
-        - {x: 10, y: 20}
-        - {x: 8, y: 26}
+      - - {x: 5, y: 26}
+        - {x: -8, y: 26}
+        - {x: -10, y: 21}
+        - {x: -10, y: 10}
+        - {x: -4, y: 7}
+        - {x: 9, y: 7}
+        - {x: 11, y: 10}
+        - {x: 11, y: 21}
+        - {x: 10, y: 24}
     - name: HeroRed 1
       rect:
         serializedVersion: 2
@@ -88,14 +89,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 25}
-        - {x: -11, y: 18}
-        - {x: -11, y: 9}
-        - {x: -5, y: 7}
+      - - {x: 4, y: 25}
+        - {x: -7, y: 25}
+        - {x: -10, y: 19}
+        - {x: -10, y: 9}
+        - {x: -4, y: 7}
         - {x: 8, y: 7}
-        - {x: 10, y: 9}
-        - {x: 10, y: 20}
-        - {x: 8, y: 25}
+        - {x: 11, y: 10}
+        - {x: 11, y: 17}
+        - {x: 9, y: 23}
     - name: HeroRed 2
       rect:
         serializedVersion: 2
@@ -107,14 +109,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -7, y: 26}
-        - {x: -11, y: 20}
-        - {x: -11, y: 9}
-        - {x: -6, y: 7}
-        - {x: 8, y: 7}
-        - {x: 10, y: 9}
-        - {x: 10, y: 20}
-        - {x: 8, y: 26}
+      - - {x: 5, y: 26}
+        - {x: -8, y: 26}
+        - {x: -10, y: 21}
+        - {x: -10, y: 10}
+        - {x: -4, y: 7}
+        - {x: 9, y: 7}
+        - {x: 11, y: 10}
+        - {x: 11, y: 21}
+        - {x: 10, y: 24}
     - name: HeroRed 3
       rect:
         serializedVersion: 2
@@ -126,14 +129,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 26}
-        - {x: -11, y: 21}
-        - {x: -11, y: 13}
-        - {x: -7, y: 7}
-        - {x: 6, y: 7}
-        - {x: 10, y: 13}
-        - {x: 10, y: 22}
-        - {x: 6, y: 26}
+      - - {x: -7, y: 26}
+        - {x: -10, y: 22}
+        - {x: -10, y: 14}
+        - {x: -5, y: 7}
+        - {x: 7, y: 7}
+        - {x: 11, y: 9}
+        - {x: 11, y: 20}
+        - {x: 7, y: 26}
     - name: HeroRed 4
       rect:
         serializedVersion: 2
@@ -145,14 +148,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 6, y: 26}
-        - {x: -5, y: 26}
-        - {x: -11, y: 22}
-        - {x: -11, y: 9}
-        - {x: -4, y: 7}
-        - {x: 6, y: 7}
-        - {x: 10, y: 13}
-        - {x: 10, y: 19}
+      - - {x: -7, y: 26}
+        - {x: -10, y: 20}
+        - {x: -10, y: 13}
+        - {x: -2, y: 7}
+        - {x: 8, y: 7}
+        - {x: 11, y: 16}
+        - {x: 11, y: 21}
+        - {x: 4, y: 26}
     - name: HeroRed 5
       rect:
         serializedVersion: 2
@@ -164,14 +167,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 26}
-        - {x: -11, y: 19}
-        - {x: -11, y: 13}
-        - {x: -7, y: 7}
-        - {x: 8, y: 7}
-        - {x: 10, y: 11}
-        - {x: 10, y: 21}
-        - {x: 9, y: 26}
+      - - {x: 5, y: 26}
+        - {x: -7, y: 26}
+        - {x: -10, y: 24}
+        - {x: -10, y: 14}
+        - {x: -5, y: 7}
+        - {x: 1, y: 7}
+        - {x: 4, y: 8}
+        - {x: 11, y: 13}
+        - {x: 11, y: 19}
     - name: HeroRed 6
       rect:
         serializedVersion: 2
@@ -183,14 +187,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 26}
-        - {x: -11, y: 19}
-        - {x: -11, y: 14}
-        - {x: -6, y: 7}
+      - - {x: 4, y: 26}
+        - {x: -8, y: 26}
+        - {x: -10, y: 21}
+        - {x: -10, y: 14}
+        - {x: -5, y: 7}
         - {x: 6, y: 7}
-        - {x: 10, y: 14}
-        - {x: 10, y: 21}
-        - {x: 6, y: 26}
+        - {x: 11, y: 11}
+        - {x: 11, y: 25}
     - name: HeroRed 7
       rect:
         serializedVersion: 2
@@ -202,14 +206,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -7, y: 26}
-        - {x: -11, y: 20}
-        - {x: -11, y: 9}
-        - {x: -6, y: 7}
-        - {x: 8, y: 7}
-        - {x: 10, y: 9}
-        - {x: 10, y: 20}
-        - {x: 8, y: 26}
+      - - {x: 5, y: 26}
+        - {x: -8, y: 26}
+        - {x: -10, y: 21}
+        - {x: -10, y: 10}
+        - {x: -4, y: 7}
+        - {x: 9, y: 7}
+        - {x: 11, y: 10}
+        - {x: 11, y: 21}
+        - {x: 10, y: 24}
     outline: []
   spritePackingTag: 
   userData: 

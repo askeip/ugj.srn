@@ -9,6 +9,7 @@ public class Monster : DarkObject {
     private Rigidbody2D body;
     public Vector3 playerPosition;
     public float maxSpeed;
+    private bool facingRight;
 
 	void Start () {
         initPosition = transform.position;
@@ -36,6 +37,18 @@ public class Monster : DarkObject {
         {
             xSpeed = 0;
         }
+        if (xSpeed > 0 && !facingRight)
+            Flip ();
+        else if (xSpeed < 0 && facingRight)
+            Flip ();
         body.velocity = new Vector2(xSpeed, body.velocity.y);
 	}
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
 }

@@ -9,11 +9,11 @@ public class HeroScript : WorldObject
 	public float ySpeed;
 	
 	Rigidbody2D playerRigidbody2D;
-	bool facingRight;
+	private bool facingRight;
 	
 	bool grounded = false;
 	public Transform groundCheck;
-	float groundRadius = 0.1f;
+	float groundRadius = 0.02f;
 
     public LayerMask NormalLayer;
     public LayerMask DarkLayer;
