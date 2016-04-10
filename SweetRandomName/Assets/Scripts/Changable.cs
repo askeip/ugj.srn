@@ -6,6 +6,7 @@ public class Changable : WorldObject {
 	protected World world;
 	private Collider2D collider;
 	private SpriteRenderer[] sprites;
+    protected bool isActive;
 
 	protected void PreStart() {
 		collider = gameObject.GetComponent<Collider2D>();
@@ -14,13 +15,14 @@ public class Changable : WorldObject {
 	}
 
 	protected void ChangeWorld() {
+        isActive = world.CurWorld == activeWorld;
 		foreach (var sprite in sprites)
 		{
 			var color = sprite.color;
-			if (world.CurWorld != activeWorld)
-				color.a = 0.4f;
+			if (isActive)
+                color.a = 1f;
 			else
-				color.a = 1f;
+                color.a = 0.4f;
 			sprite.color = color;
 		}
 	}

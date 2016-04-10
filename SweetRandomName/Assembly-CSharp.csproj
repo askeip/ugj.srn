@@ -50,9 +50,10 @@
      <Compile Include="Assets\Scripts\DarkObject.cs" />
      <Compile Include="Assets\Scripts\HeroScript.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\MovableWorldObject.cs" />
      <Compile Include="Assets\Scripts\NormalObject.cs" />
      <Compile Include="Assets\Scripts\World.cs" />
-     <Compile Include="Assets\Scripts\WorldObjet.cs" />
+     <Compile Include="Assets\Scripts\WorldObject.cs" />
      <None Include="Assets\AnimationImporter-master\Assets\AnimationImporter\readme.txt" />
      <None Include="Assets\AnimationImporter-master\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
