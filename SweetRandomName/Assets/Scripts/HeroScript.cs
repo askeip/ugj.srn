@@ -19,8 +19,8 @@ public class HeroScript : WorldObject
     public LayerMask DarkLayer;
 
     public int hp;
-    private Vector3 initPosition;
-    private Vector3 initVelocity;
+    //private Vector3 initPosition;
+    //private Vector3 initVelocity;
 	private World world;
 
     private Animator animator;
@@ -30,11 +30,12 @@ public class HeroScript : WorldObject
 	
 	void Start()
 	{
+        GeneralStart();
         animator = gameObject.GetComponent<Animator>();
         hp = 1;
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
-		initPosition = transform.position;
-        initVelocity = new Vector2(0, 0);
+		//initPosition = transform.position;
+        //initVelocity = new Vector2(0, 0);
 		playerRigidbody2D = GetComponent<Rigidbody2D>();
         CreateWorldLayerDict();
         animator.runtimeAnimatorController = normalAnimController;
@@ -53,7 +54,7 @@ public class HeroScript : WorldObject
 			world.ChangeWorld();
             animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? normalAnimController : darkAnimController;
 		}
-		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
+        if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
 		{
 			playerRigidbody2D.velocity = new Vector2(playerRigidbody2D.velocity.x, ySpeed);
 		}
@@ -64,8 +65,7 @@ public class HeroScript : WorldObject
 	}
 
 	public override void Reset() {
-		transform.position = initPosition;
-        playerRigidbody2D.velocity = initVelocity;
+        base.Reset();
         animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? normalAnimController : darkAnimController;
 	}
 

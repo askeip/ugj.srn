@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MovableWorldObject : MonoBehaviour {
+public class MovableWorldObject : WorldObject 
+{
+    protected Rigidbody2D objRigidbody2D;
+    protected Vector3 initVelocity;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    protected override void GeneralStart()
+    {
+        base.GeneralStart();
+        objRigidbody2D = gameObject.GetComponent<Rigidbody2D>();
+        initVelocity = objRigidbody2D.velocity;
+    }
+
+    public override void Reset()
+    {
+        base.Reset();
+        objRigidbody2D.velocity = initVelocity;
+    }
 }

@@ -4,24 +4,21 @@ using System;
 
 public class Monster : DarkObject {
     public int damage;
-    private Vector3 initPosition;
+    //private Vector3 initPosition;
     public GameObject player;
     private Rigidbody2D body;
     public Vector3 playerPosition;
     public float maxSpeed;
     private bool facingRight;
 
+    private Animator anim;
+
 	void Start () {
-        initPosition = transform.position;
+        anim = gameObject.GetComponent<Animator>();
+        //initPosition = transform.position;
         PreStart();
         body = GetComponent<Rigidbody2D>();
 	}
-
-    public override void Reset()
-    {
-        transform.position = initPosition;
-        body.velocity = new Vector2(0, 0);
-    }
 	
 	void Update () {
         ChangeWorld();
@@ -37,6 +34,7 @@ public class Monster : DarkObject {
         {
             xSpeed = 0;
         }
+        anim.SetBool("Moving", xSpeed != 0);
         if (xSpeed > 0 && !facingRight)
             Flip ();
         else if (xSpeed < 0 && facingRight)

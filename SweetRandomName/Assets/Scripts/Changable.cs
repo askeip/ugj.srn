@@ -12,6 +12,7 @@ public class Changable : WorldObject {
 		collider = gameObject.GetComponent<Collider2D>();
 		sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
+        GeneralStart();
 	}
 
 	protected void ChangeWorld() {

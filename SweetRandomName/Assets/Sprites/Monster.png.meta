@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: c04a78e04af8fc144859912fbed6c368
-timeCreated: 1460304683
+timeCreated: 1460364943
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Monster
+    21300002: Monster 0
+    21300004: Monster 1
+    21300006: Monster 2
+    21300008: Monster 3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -28,7 +32,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 32
+  maxTextureSize: 64
   textureSettings:
     filterMode: 0
     aniso: -1
@@ -51,7 +55,40 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Monster
+    - name: Monster 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -14, y: 7}
+        - {x: -6, y: 0}
+        - {x: 11, y: 0}
+        - {x: 11, y: 31}
+        - {x: 10, y: 32}
+    - name: Monster 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31}
+        - {x: -14, y: 0}
+        - {x: 11, y: 0}
+        - {x: 11, y: 29}
+        - {x: 7, y: 31}
+    - name: Monster 2
       rect:
         serializedVersion: 2
         x: 0
@@ -63,8 +100,25 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -14, y: 32}
+        - {x: -14, y: 1}
+        - {x: -10, y: 0}
+        - {x: 11, y: 0}
+        - {x: 11, y: 31}
+        - {x: 10, y: 32}
+    - name: Monster 3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
         - {x: -14, y: 7}
-        - {x: -6, y: 0}
+        - {x: -5, y: 0}
         - {x: 11, y: 0}
         - {x: 11, y: 31}
         - {x: 10, y: 32}
