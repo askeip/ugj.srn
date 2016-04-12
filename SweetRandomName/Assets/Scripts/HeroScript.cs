@@ -11,7 +11,7 @@ public class HeroScript : WorldObject
 	Rigidbody2D playerRigidbody2D;
 	private bool facingRight;
 	
-	bool grounded = false;
+	public bool grounded = false;
 	public Transform groundCheck;
 	float groundRadius = 0.02f;
 
@@ -67,6 +67,7 @@ public class HeroScript : WorldObject
 			playerRigidbody2D.velocity = new Vector2(playerRigidbody2D.velocity.x, ySpeed);
 		}
         animator.SetBool("Moving", playerRigidbody2D.velocity.x != 0);
+        animator.SetBool("Jumping", !grounded);
 	}
 	
 	void GameOver() {
