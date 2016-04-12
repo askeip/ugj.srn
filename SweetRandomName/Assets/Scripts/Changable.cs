@@ -5,7 +5,7 @@ public class Changable : WorldObject {
 	protected Worlds activeWorld;
 	protected World world;
 	//private Collider2D collider;
-	private SpriteRenderer[] sprites;
+    protected SpriteRenderer[] sprites;
     protected bool isActive;
 
 	protected void PreStart() {
@@ -15,7 +15,7 @@ public class Changable : WorldObject {
         GeneralStart();
 	}
 
-	protected void ChangeWorld() {
+    protected virtual void ChangeWorld() {
         isActive = world.CurWorld == activeWorld;
 		foreach (var sprite in sprites)
 		{

@@ -17,7 +17,6 @@ public class GlassesScript : WorldObject
     }
 
     void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log(other.gameObject.tag);
         if (other.gameObject.tag == "Player")
         {
             var heroScript = other.gameObject.GetComponent<HeroScript>();

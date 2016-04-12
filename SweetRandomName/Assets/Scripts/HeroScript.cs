@@ -59,7 +59,7 @@ public class HeroScript : WorldObject
             animator.runtimeAnimatorController = animControllers[0];
         else
             animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? animControllers[1] : animControllers[2];
-		if (Input.GetKeyDown(KeyCode.Tab)) {
+        if (Input.GetKeyDown(KeyCode.Tab) && HasGlasses) {
 			world.ChangeWorld();
 		}
         if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
