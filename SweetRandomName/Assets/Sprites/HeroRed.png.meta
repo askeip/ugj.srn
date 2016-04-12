@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0f94b5052eb19b141956c902030897f9
-timeCreated: 1460451713
+timeCreated: 1460453302
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -238,13 +238,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 27}
-        - {x: -10, y: 5}
-        - {x: -6, y: 4}
+      - - {x: -9, y: 27}
+        - {x: -12, y: 23}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
         - {x: 9, y: 4}
-        - {x: 13, y: 11}
-        - {x: 13, y: 20}
-        - {x: 5, y: 27}
+        - {x: 11, y: 9}
+        - {x: 11, y: 21}
+        - {x: 6, y: 27}
     - name: HeroRed 9
       rect:
         serializedVersion: 2
@@ -256,12 +257,13 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 27}
-        - {x: -10, y: 5}
-        - {x: -6, y: 4}
-        - {x: 9, y: 4}
-        - {x: 13, y: 11}
-        - {x: 13, y: 20}
+      - - {x: -9, y: 27}
+        - {x: -12, y: 22}
+        - {x: -12, y: 11}
+        - {x: -9, y: 4}
+        - {x: 8, y: 4}
+        - {x: 11, y: 5}
+        - {x: 11, y: 23}
         - {x: 5, y: 27}
     - name: HeroRed 10
       rect:
@@ -274,13 +276,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10, y: 27}
-        - {x: -10, y: 5}
-        - {x: -6, y: 4}
+      - - {x: -9, y: 27}
+        - {x: -12, y: 23}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
         - {x: 9, y: 4}
-        - {x: 13, y: 11}
-        - {x: 13, y: 20}
-        - {x: 5, y: 27}
+        - {x: 11, y: 9}
+        - {x: 11, y: 21}
+        - {x: 6, y: 27}
     - name: HeroRed 11
       rect:
         serializedVersion: 2
