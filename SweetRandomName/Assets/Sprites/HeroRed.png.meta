@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0f94b5052eb19b141956c902030897f9
-timeCreated: 1460365169
+timeCreated: 1460451713
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,6 +12,19 @@ TextureImporter:
     21300010: HeroRed 5
     21300012: HeroRed 6
     21300014: HeroRed 7
+    21300016: HeroRed 8
+    21300018: HeroRed 9
+    21300020: HeroRed 10
+    21300022: HeroRed 11
+    21300024: HeroRed 12
+    21300026: HeroRed 13
+    21300028: HeroRed 14
+    21300030: HeroRed 15
+    21300032: HeroRed 16
+    21300034: HeroRed 17
+    21300036: HeroRed 18
+    21300038: HeroRed 19
+    21300040: HeroRed 20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,7 +48,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 128
+  maxTextureSize: 256
   textureSettings:
     filterMode: 0
     aniso: -1
@@ -62,86 +75,296 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: 26}
-        - {x: -8, y: 26}
-        - {x: -10, y: 21}
-        - {x: -10, y: 10}
-        - {x: -4, y: 7}
-        - {x: 9, y: 7}
-        - {x: 11, y: 10}
-        - {x: 11, y: 21}
-        - {x: 10, y: 24}
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -5, y: 4}
+        - {x: 10, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
     - name: HeroRed 1
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 4, y: 25}
-        - {x: -7, y: 25}
-        - {x: -10, y: 19}
-        - {x: -10, y: 9}
-        - {x: -4, y: 7}
-        - {x: 8, y: 7}
-        - {x: 11, y: 10}
-        - {x: 11, y: 17}
-        - {x: 9, y: 23}
+      - - {x: -11, y: 27}
+        - {x: -12, y: 25}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 25}
+        - {x: 6, y: 27}
     - name: HeroRed 2
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: 26}
-        - {x: -8, y: 26}
-        - {x: -10, y: 21}
-        - {x: -10, y: 10}
-        - {x: -4, y: 7}
-        - {x: 9, y: 7}
-        - {x: 11, y: 10}
-        - {x: 11, y: 21}
-        - {x: 10, y: 24}
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -5, y: 4}
+        - {x: 10, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
     - name: HeroRed 3
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 96
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -7, y: 26}
-        - {x: -10, y: 22}
-        - {x: -10, y: 14}
-        - {x: -5, y: 7}
-        - {x: 7, y: 7}
-        - {x: 11, y: 9}
-        - {x: 11, y: 20}
-        - {x: 7, y: 26}
+      - - {x: -11, y: 27}
+        - {x: -12, y: 25}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 25}
+        - {x: 6, y: 27}
     - name: HeroRed 4
       rect:
         serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -5, y: 4}
+        - {x: 10, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
+    - name: HeroRed 5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27}
+        - {x: -12, y: 25}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 25}
+        - {x: 6, y: 27}
+    - name: HeroRed 6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -5, y: 4}
+        - {x: 10, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
+    - name: HeroRed 7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27}
+        - {x: -12, y: 25}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 25}
+        - {x: 6, y: 27}
+    - name: HeroRed 8
+      rect:
+        serializedVersion: 2
         x: 0
-        y: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 27}
+        - {x: -10, y: 5}
+        - {x: -6, y: 4}
+        - {x: 9, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 20}
+        - {x: 5, y: 27}
+    - name: HeroRed 9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 27}
+        - {x: -10, y: 5}
+        - {x: -6, y: 4}
+        - {x: 9, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 20}
+        - {x: 5, y: 27}
+    - name: HeroRed 10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 27}
+        - {x: -10, y: 5}
+        - {x: -6, y: 4}
+        - {x: 9, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 20}
+        - {x: 5, y: 27}
+    - name: HeroRed 11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27}
+        - {x: -12, y: 25}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 25}
+        - {x: 6, y: 27}
+    - name: HeroRed 12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -5, y: 4}
+        - {x: 10, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
+    - name: HeroRed 13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -4, y: 4}
+        - {x: 10, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
+    - name: HeroRed 14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -9, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -4, y: 4}
+        - {x: 11, y: 4}
+        - {x: 13, y: 9}
+        - {x: 13, y: 21}
+        - {x: 5, y: 28}
+    - name: HeroRed 15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -156,11 +379,11 @@ TextureImporter:
         - {x: 11, y: 16}
         - {x: 11, y: 21}
         - {x: 4, y: 26}
-    - name: HeroRed 5
+    - name: HeroRed 16
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 0
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -176,45 +399,86 @@ TextureImporter:
         - {x: 4, y: 8}
         - {x: 11, y: 13}
         - {x: 11, y: 19}
-    - name: HeroRed 6
+    - name: HeroRed 17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 28}
+        - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 8}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 19}
+        - {x: 12, y: 25}
+    - name: HeroRed 18
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 4, y: 26}
-        - {x: -8, y: 26}
-        - {x: -10, y: 21}
-        - {x: -10, y: 14}
-        - {x: -5, y: 7}
-        - {x: 6, y: 7}
-        - {x: 11, y: 11}
-        - {x: 11, y: 25}
-    - name: HeroRed 7
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -3, y: 4}
+        - {x: 9, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
+    - name: HeroRed 19
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: 26}
-        - {x: -8, y: 26}
-        - {x: -10, y: 21}
-        - {x: -10, y: 10}
-        - {x: -4, y: 7}
-        - {x: 9, y: 7}
-        - {x: 11, y: 10}
-        - {x: 11, y: 21}
-        - {x: 10, y: 24}
+      - - {x: 5, y: 28}
+        - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 8}
+        - {x: -7, y: 4}
+        - {x: 7, y: 4}
+        - {x: 13, y: 10}
+        - {x: 13, y: 19}
+        - {x: 12, y: 25}
+    - name: HeroRed 20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 11}
+        - {x: -3, y: 4}
+        - {x: 9, y: 4}
+        - {x: 13, y: 11}
+        - {x: 13, y: 22}
+        - {x: 5, y: 28}
     outline: []
   spritePackingTag: 
   userData: 
