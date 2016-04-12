@@ -24,8 +24,12 @@ public class HeroScript : WorldObject
 	private World world;
 
     private Animator animator;
-    public RuntimeAnimatorController normalAnimController;
-    public RuntimeAnimatorController darkAnimController;
+    public RuntimeAnimatorController[] animControllers;
+    //public RuntimeAnimatorController normalAnimController;
+    //public RuntimeAnimatorController darkAnimController;
+
+    private bool checkpointHasGlasseValue;
+    public bool HasGlasses;
 	
 	
 	void Start()
@@ -38,7 +42,8 @@ public class HeroScript : WorldObject
         //initVelocity = new Vector2(0, 0);
 		playerRigidbody2D = GetComponent<Rigidbody2D>();
         CreateWorldLayerDict();
-        animator.runtimeAnimatorController = normalAnimController;
+        checkpointHasGlasseValue = HasGlasses;
+        Reset();
 	}
 
     private void CreateWorldLayerDict()
@@ -50,14 +55,18 @@ public class HeroScript : WorldObject
 
 	void Update()
 	{
+        if (!HasGlasses)
+            animator.runtimeAnimatorController = animControllers[0];
+        else
+            animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? animControllers[1] : animControllers[2];
 		if (Input.GetKeyDown(KeyCode.Tab)) {
 			world.ChangeWorld();
-            animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? normalAnimController : darkAnimController;
 		}
         if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
 		{
 			playerRigidbody2D.velocity = new Vector2(playerRigidbody2D.velocity.x, ySpeed);
 		}
+        animator.SetBool("Moving", playerRigidbody2D.velocity.x != 0);
 	}
 	
 	void GameOver() {
@@ -66,7 +75,7 @@ public class HeroScript : WorldObject
 
 	public override void Reset() {
         base.Reset();
-        animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? normalAnimController : darkAnimController;
+        HasGlasses = checkpointHasGlasseValue;
 	}
 
 	void FixedUpdate()

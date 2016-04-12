@@ -4,12 +4,12 @@ using System.Collections;
 public class Changable : WorldObject {
 	protected Worlds activeWorld;
 	protected World world;
-	private Collider2D collider;
+	//private Collider2D collider;
 	private SpriteRenderer[] sprites;
     protected bool isActive;
 
 	protected void PreStart() {
-		collider = gameObject.GetComponent<Collider2D>();
+		//collider = gameObject.GetComponent<Collider2D>();
 		sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
         GeneralStart();

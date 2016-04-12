@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c04a78e04af8fc144859912fbed6c368
-timeCreated: 1460449174
+timeCreated: 1460461557
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -18,6 +18,10 @@ TextureImporter:
     21300022: Monster 10
     21300024: Monster 11
     21300026: Monster 12
+    21300028: Monster 13
+    21300030: Monster 14
+    21300032: Monster 15
+    21300034: Monster 16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -41,7 +45,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 128
+  maxTextureSize: 256
   textureSettings:
     filterMode: 0
     aniso: -1
@@ -76,11 +80,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -14, y: 32}
-        - {x: -14, y: 7}
-        - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 31}
-        - {x: 10, y: 32}
+        - {x: -14, y: 4}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 14, y: 32}
     - name: Monster 1
       rect:
         serializedVersion: 2
@@ -92,11 +96,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 31}
-        - {x: -14, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 29}
-        - {x: 7, y: 31}
+      - - {x: -14, y: 26}
+        - {x: -14, y: 9}
+        - {x: -11, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 10, y: 27}
+        - {x: 6, y: 31}
+        - {x: -7, y: 31}
     - name: Monster 2
       rect:
         serializedVersion: 2
@@ -109,11 +116,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -14, y: 32}
-        - {x: -14, y: 7}
-        - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 31}
-        - {x: 10, y: 32}
+        - {x: -14, y: 4}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 14, y: 32}
     - name: Monster 3
       rect:
         serializedVersion: 2
@@ -125,12 +132,85 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 31}
-        - {x: -14, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 29}
-        - {x: 7, y: 31}
+      - - {x: -7, y: 31}
+        - {x: -14, y: 30}
+        - {x: -14, y: 3}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 16}
+        - {x: 8, y: 31}
     - name: Monster 4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -14, y: 4}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 14, y: 32}
+    - name: Monster 5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -14, y: 9}
+        - {x: -11, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 10, y: 27}
+        - {x: 6, y: 31}
+        - {x: -7, y: 31}
+    - name: Monster 6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32}
+        - {x: -14, y: 4}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 14, y: 32}
+    - name: Monster 7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 31}
+        - {x: -14, y: 30}
+        - {x: -14, y: 3}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 16}
+        - {x: 8, y: 31}
+    - name: Monster 8
       rect:
         serializedVersion: 2
         x: 0
@@ -141,13 +221,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 32}
-        - {x: -14, y: 7}
-        - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 31}
-        - {x: 10, y: 32}
-    - name: Monster 5
+      - - {x: 14, y: 28}
+        - {x: 11, y: 32}
+        - {x: -6, y: 32}
+        - {x: -12, y: 26}
+        - {x: -12, y: 2}
+        - {x: -8, y: 0}
+        - {x: 15, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 20}
+    - name: Monster 9
       rect:
         serializedVersion: 2
         x: 32
@@ -158,12 +241,17 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 31}
-        - {x: -14, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 29}
-        - {x: 7, y: 31}
-    - name: Monster 6
+      - - {x: 14, y: 28}
+        - {x: 12, y: 32}
+        - {x: -10, y: 32}
+        - {x: -12, y: 25}
+        - {x: -12, y: 2}
+        - {x: -9, y: 0}
+        - {x: 15, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 9}
+        - {x: 15, y: 10}
+    - name: Monster 10
       rect:
         serializedVersion: 2
         x: 64
@@ -174,13 +262,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 32}
-        - {x: -14, y: 7}
-        - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 31}
-        - {x: 10, y: 32}
-    - name: Monster 7
+      - - {x: 14, y: 28}
+        - {x: 11, y: 32}
+        - {x: -6, y: 32}
+        - {x: -12, y: 26}
+        - {x: -12, y: 2}
+        - {x: -8, y: 0}
+        - {x: 15, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 20}
+    - name: Monster 11
       rect:
         serializedVersion: 2
         x: 96
@@ -191,34 +282,91 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 31}
-        - {x: -14, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 29}
-        - {x: 7, y: 31}
-    - name: Monster 8
+      - - {x: -11, y: 32}
+        - {x: -14, y: 26}
+        - {x: -14, y: 7}
+        - {x: -7, y: 0}
+        - {x: 14, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 14}
+        - {x: 13, y: 32}
+    - name: Monster 12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 128
+        y: 64
         width: 32
         height: 32
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: 32}
-        - {x: -12, y: 26}
-        - {x: -12, y: 6}
-        - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 13, y: 14}
-        - {x: 13, y: 31}
-        - {x: 12, y: 32}
-    - name: Monster 9
+      - - {x: -14, y: 32}
+        - {x: -14, y: 7}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 14}
+        - {x: 10, y: 32}
+    - name: Monster 13
       rect:
         serializedVersion: 2
-        x: 32
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -14, y: 26}
+        - {x: -14, y: 7}
+        - {x: -7, y: 0}
+        - {x: 14, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 14}
+        - {x: 13, y: 32}
+    - name: Monster 14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 7}
+        - {x: -7, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 20}
+        - {x: 13, y: 32}
+        - {x: -14, y: 32}
+    - name: Monster 15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 28}
+        - {x: 11, y: 32}
+        - {x: -6, y: 32}
+        - {x: -12, y: 26}
+        - {x: -12, y: 0}
+        - {x: 15, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 9}
+        - {x: 15, y: 10}
+    - name: Monster 16
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -232,63 +380,9 @@ TextureImporter:
         - {x: -12, y: 21}
         - {x: -12, y: 5}
         - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 13, y: 14}
-        - {x: 13, y: 31}
-        - {x: 12, y: 32}
-    - name: Monster 10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 32}
-        - {x: -12, y: 26}
-        - {x: -12, y: 6}
-        - {x: -6, y: 0}
-        - {x: 11, y: 0}
-        - {x: 13, y: 14}
-        - {x: 13, y: 31}
-        - {x: 12, y: 32}
-    - name: Monster 11
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 32}
-        - {x: -14, y: 1}
-        - {x: -10, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 31}
-        - {x: 10, y: 32}
-    - name: Monster 12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 32}
-        - {x: -14, y: 7}
-        - {x: -5, y: 0}
-        - {x: 11, y: 0}
-        - {x: 11, y: 31}
-        - {x: 10, y: 32}
+        - {x: 16, y: 0}
+        - {x: 16, y: 31}
+        - {x: 13, y: 32}
     outline: []
   spritePackingTag: 
   userData: 
