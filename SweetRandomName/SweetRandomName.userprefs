@@ -1,21 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AnimationImporter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AsepriteImporter.cs">
     <Files>
       <File FileName="Assets\Scripts\HeroScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CameraMovingScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Monster.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Monster.cs" Line="8" Column="12" />
       <File FileName="Assets\Scripts\DarkObject.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\World.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Changable.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\WorldObject.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MovableWorldObject.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenuScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AnimationImporter.cs" Line="512" Column="1" />
-      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AsepriteImporter.cs" Line="67" Column="1" />
-      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\ImportedAnimationInfo.cs" Line="6" Column="40" />
-      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\JSONObject.cs" Line="56" Column="27" />
-      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AnimationClipHelper.cs" Line="1" Column="14" />
+      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AnimationImporter.cs" Line="510" Column="62" />
+      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\ImportedAnimationInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\JSONObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AnimationClipHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AsepriteImporter.cs" Line="167" Column="1" />
+      <File FileName="Assets\Scripts\BackgroundScript.cs" Line="23" Column="11" />
+      <File FileName="Assets\Scripts\GlassesScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -23,6 +25,7 @@
       <Breakpoint file="C:\Users\Евгений\Documents\GitHub\ugj.srn\SweetRandomName\Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AnimationImporter.cs" line="512" column="1" />
       <Breakpoint file="C:\Users\Евгений\Documents\GitHub\ugj.srn\SweetRandomName\Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AsepriteImporter.cs" line="46" column="69" />
       <Breakpoint file="C:\Users\Евгений\Documents\GitHub\ugj.srn\SweetRandomName\Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AsepriteImporter.cs" line="50" column="1" />
+      <Breakpoint file="C:\Users\Евгений\Documents\GitHub\ugj.srn\SweetRandomName\Assets\AnimationImporter-master\Assets\AnimationImporter\Editor\AsepriteImporter.cs" line="112" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
