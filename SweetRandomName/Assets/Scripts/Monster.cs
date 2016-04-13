@@ -5,7 +5,7 @@ using System;
 public class Monster : DarkObject {
     public int damage;
     //private Vector3 initPosition;
-    public GameObject player;
+    private GameObject player;
     private Rigidbody2D body;
     public Vector3 playerPosition;
     public float maxSpeed;
@@ -16,6 +16,7 @@ public class Monster : DarkObject {
     private Animator anim;
 
 	void Start () {
+        player = GameObject.FindGameObjectWithTag("Player");
         dir = -1;
         anim = gameObject.GetComponent<Animator>();
         //initPosition = transform.position;

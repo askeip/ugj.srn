@@ -3,13 +3,13 @@ using System.Collections;
 
 public class BackgroundScript : Changable
 {   
-    public GameObject player;
-    private HeroScript heroScript;
+    //public GameObject player;
+    //private HeroScript heroScript;
     public Sprite[] worldSprites;
 
     void Start()
     {
-        heroScript = player.GetComponent<HeroScript>();
+        //heroScript = player.GetComponent<HeroScript>();
         PreStart();
     }
 
@@ -20,7 +20,7 @@ public class BackgroundScript : Changable
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, heroScript.xSpeed * Time.deltaTime);
+        //transform.position = Vector3.MoveTowards(transform.position, player.transform.position, heroScript.xSpeed * Time.deltaTime);
         ChangeWorld();
     }
 }

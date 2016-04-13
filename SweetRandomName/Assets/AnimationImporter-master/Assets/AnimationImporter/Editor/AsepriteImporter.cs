@@ -52,10 +52,10 @@ namespace AnimationImporter
 				// create subdirectory
 				if (!Directory.Exists(path + "/Sprites"))
 					Directory.CreateDirectory(path + "/Sprites");
+
 				string target = path + "/Sprites/" + name + ".json";
 				if (File.Exists(target))
 					File.Delete(target);
-                Debug.Log(path + "/" + name + ".json");
 				File.Move(path + "/" + name + ".json", target);
 
 				target = path + "/Sprites/" + name + ".png";
@@ -160,7 +160,7 @@ namespace AnimationImporter
 
 		private static bool GetSpritesFromJSON(JSONObject root, ImportedAnimationInfo importedInfos)
 		{
-            var list = root["frames"].Array;
+			var list = root["frames"].Array;
 
 			if (list == null)
 			{
@@ -172,7 +172,6 @@ namespace AnimationImporter
 			foreach (var item in list)
 			{
 				ImportedSpriteInfo frame = new ImportedSpriteInfo();
-                //??frame.name = item.Str.Replace(".ase","");
 				frame.name = item.Obj["filename"].Str.Replace(".ase","");
 
 				var frameValues = item.Obj["frame"].Obj;
