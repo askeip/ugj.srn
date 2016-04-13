@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 8f867d7b88eddb64d8c925c77d4e99ff
+timeCreated: 1460570358
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GunRed 0
+    21300002: GunRed 1
+    21300004: GunRed 2
+    21300006: GunRed 3
+    21300008: GunRed 4
+    21300010: GunRed 5
+    21300012: GunRed 6
+    21300014: GunRed 7
+    21300016: GunRed 8
+    21300018: GunRed 9
+    21300020: GunRed 10
+    21300022: GunRed 11
+    21300024: GunRed 12
+    21300026: GunRed 13
+    21300028: GunRed 14
+    21300030: GunRed 15
+    21300032: GunRed 16
+    21300034: GunRed 17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GunRed 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 23}
+        - {x: -10, y: 25}
+        - {x: -15, y: 25}
+        - {x: -16, y: 24}
+        - {x: -16, y: 4}
+        - {x: -8, y: 0}
+        - {x: 11, y: 0}
+        - {x: 14, y: 8}
+        - {x: 14, y: 19}
+    - name: GunRed 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: 3}
+        - {x: -9, y: 0}
+        - {x: 12, y: 0}
+        - {x: 16, y: 5}
+        - {x: 16, y: 18}
+        - {x: 13, y: 25}
+    - name: GunRed 2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 7}
+        - {x: 16, y: 16}
+        - {x: 16, y: 24}
+        - {x: 12, y: 27}
+        - {x: -8, y: 27}
+        - {x: -16, y: 25}
+        - {x: -16, y: 3}
+        - {x: 0, y: 0}
+        - {x: 5, y: 0}
+        - {x: 6, y: 2}
+        - {x: 6, y: 9}
+        - {x: 8, y: 6}
+    - name: GunRed 3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 26}
+        - {x: -5, y: 26}
+        - {x: -14, y: 25}
+        - {x: -16, y: 23}
+        - {x: -16, y: 4}
+        - {x: -8, y: 0}
+        - {x: 11, y: 0}
+        - {x: 14, y: 7}
+        - {x: 14, y: 23}
+    - name: GunRed 4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: 6, y: 26}
+        - {x: -16, y: 26}
+        - {x: -16, y: 5}
+        - {x: -4, y: 0}
+        - {x: 9, y: 0}
+        - {x: 15, y: 8}
+        - {x: 16, y: 14}
+        - {x: 16, y: 23}
+    - name: GunRed 5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 26}
+        - {x: -16, y: 25}
+        - {x: -16, y: 5}
+        - {x: -7, y: 0}
+        - {x: 9, y: 0}
+        - {x: 16, y: 11}
+        - {x: 16, y: 18}
+        - {x: 12, y: 26}
+    - name: GunRed 6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 28}
+        - {x: -15, y: 26}
+        - {x: -16, y: 25}
+        - {x: -16, y: 4}
+        - {x: -1, y: 0}
+        - {x: 8, y: 0}
+        - {x: 16, y: 5}
+        - {x: 16, y: 28}
+    - name: GunRed 7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -16, y: 1}
+        - {x: -15, y: 0}
+        - {x: 15, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 27}
+    - name: GunRed 8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 27}
+        - {x: -15, y: 26}
+        - {x: -16, y: 25}
+        - {x: -16, y: 3}
+        - {x: -3, y: 0}
+        - {x: 8, y: 0}
+        - {x: 16, y: 4}
+        - {x: 16, y: 25}
+        - {x: 15, y: 27}
+    - name: GunRed 9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 29}
+        - {x: -16, y: 3}
+        - {x: -9, y: 0}
+        - {x: 14, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 29}
+    - name: GunRed 10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 29}
+        - {x: -16, y: 25}
+        - {x: -16, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 28}
+        - {x: 10, y: 29}
+    - name: GunRed 11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 30}
+        - {x: -16, y: 28}
+        - {x: -16, y: 2}
+        - {x: -12, y: 0}
+        - {x: 12, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 29}
+        - {x: 15, y: 30}
+    - name: GunRed 12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 1}
+        - {x: 16, y: 30}
+        - {x: 9, y: 32}
+        - {x: 5, y: 32}
+        - {x: 4, y: 30}
+        - {x: 4, y: 27}
+        - {x: 2, y: 30}
+        - {x: -2, y: 29}
+        - {x: -15, y: 26}
+        - {x: -16, y: 24}
+        - {x: -16, y: 3}
+        - {x: -11, y: 0}
+        - {x: 13, y: 0}
+        - {x: 13, y: 4}
+        - {x: 15, y: 1}
+    - name: GunRed 13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 32}
+        - {x: -16, y: 25}
+        - {x: -16, y: 4}
+        - {x: -1, y: 0}
+        - {x: 15, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 32}
+    - name: GunRed 14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 29}
+        - {x: -16, y: 28}
+        - {x: -16, y: 2}
+        - {x: -13, y: 0}
+        - {x: 11, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 27}
+        - {x: 12, y: 29}
+    - name: GunRed 15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 0}
+        - {x: 11, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 28}
+        - {x: -16, y: 28}
+        - {x: -16, y: 5}
+    - name: GunRed 16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: 1}
+        - {x: -15, y: 0}
+        - {x: 14, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 25}
+    - name: GunRed 17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 23}
+        - {x: -10, y: 25}
+        - {x: -15, y: 25}
+        - {x: -16, y: 24}
+        - {x: -16, y: 4}
+        - {x: -8, y: 0}
+        - {x: 11, y: 0}
+        - {x: 14, y: 8}
+        - {x: 14, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,7 +6,12 @@ public class DialogScript : WorldObject
     public string dialog;
     public float time;
 
-    void OnTriggerStay2D(Collider2D other)
+    void Start()
+    {
+        GeneralStart();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
