@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
 public class HeroScript : WorldObject 
 {
+    public Canvas canvas;
+    public Text text;
+
     private Dictionary<Worlds, LayerMask> worldLayer;
 	public float xSpeed;
 	public float ySpeed;
@@ -34,6 +38,7 @@ public class HeroScript : WorldObject
 	
 	void Start()
 	{
+        text.text = "kek";
         GeneralStart();
         animator = gameObject.GetComponent<Animator>();
         hp = 1;

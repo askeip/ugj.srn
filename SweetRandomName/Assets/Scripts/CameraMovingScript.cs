@@ -8,7 +8,7 @@ public class CameraMovingScript : WorldObject
     private HeroScript playerScript;
 
     private const float normalOffset = 0.5f;
-    private Vector3 baseOffset;
+    public Vector3 baseOffset;
 
     public void Start()
     {

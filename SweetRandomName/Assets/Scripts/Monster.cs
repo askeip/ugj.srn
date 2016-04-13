@@ -12,6 +12,9 @@ public class Monster : DarkObject {
     private float xSpeed;
     private int direction;
     public float followDistance = 2;
+    public Transform frontGroundChecker;
+    public float checkersRadius = 0.1f;
+    public LayerMask DarkLayer;
 
     private Animator anim;
 
@@ -28,9 +31,9 @@ public class Monster : DarkObject {
         MakeMove();
         anim.SetBool("Moving", xSpeed != 0);
         if (xSpeed > 0 && !facingRight)
-            Flip ();
+            Flip();
         else if (xSpeed < 0 && facingRight)
-            Flip ();
+            Flip();
         body.velocity = new Vector2(xSpeed, body.velocity.y);
 	}
 
@@ -44,6 +47,11 @@ public class Monster : DarkObject {
 
     void MakeMove()
     {
+        var frontGrounded = Physics2D.OverlapCircle(frontGroundChecker.position,
+            checkersRadius,
+            DarkLayer);
+        if (!frontGrounded)
+            direction *= -1;
         xSpeed = maxSpeed / 2 * direction; // constant
         if (isActive)
         {
@@ -56,11 +64,5 @@ public class Monster : DarkObject {
                 xSpeed = direction * maxSpeed;
             }
         }
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "MonsterBorder")
-            direction *= -1;
     }
 }

@@ -3,14 +3,19 @@ using System.Collections;
 
 public class BackgroundScript : Changable
 {   
-    public GameObject player;
-    private HeroScript playerScript;
+    public GameObject mainCamera;
+    private CameraMovingScript cameraMovingScript;
+
+    private Vector3 baseOffset;
+
     public Sprite[] worldSprites;
 
-    void Start()
+    public void Start()
     {
-        playerScript = player.GetComponent<HeroScript>();
+        cameraMovingScript = mainCamera.GetComponent<CameraMovingScript>();
         PreStart();
+        ChangeWorld();
+        baseOffset = transform.position - mainCamera.transform.position;
     }
 
     protected override void ChangeWorld()
@@ -20,10 +25,12 @@ public class BackgroundScript : Changable
 
     void Update()
     {
-        var curSpeed = Vector3.Distance(player.transform.position, transform.position) * playerScript.xSpeed;
-        var moveTemp = player.transform.position;
-        moveTemp.z = transform.position.z;
-        transform.position = Vector3.MoveTowards(transform.position, moveTemp, curSpeed * Time.deltaTime);
+        transform.position = mainCamera.transform.position - cameraMovingScript.baseOffset;
         ChangeWorld();
+    }
+
+    public override void Reset()
+    {
+        transform.localPosition = mainCamera.transform.position + baseOffset;
     }
 }
