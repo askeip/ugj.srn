@@ -23,7 +23,7 @@ public class Changable : WorldObject {
 			if (isActive)
                 color.a = 1f;
 			else
-                color.a = 0.4f;
+                color.a = 0.25f;
 			sprite.color = color;
 		}
 	}

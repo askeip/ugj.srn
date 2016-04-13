@@ -102,7 +102,7 @@ public class HeroScript : WorldObject
 	
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "Abyss") 
+        if (other.tag == "Abyss" || other.tag == "Spikes") 
 		{
 			GameOver();
 		}

@@ -7,31 +7,25 @@ public class CameraMovingScript : WorldObject
     public GameObject player;
     private HeroScript playerScript;
 
-    private Vector3 offset;
-
-    private const float maxDifX = 0.3f;
-    private const float maxDifY = 0.3f;
+    private const float normalOffset = 0.5f;
+    private Vector3 baseOffset;
 
     public void Start()
     {
         playerScript = player.GetComponent<HeroScript>();
-        offset = transform.position - player.transform.position;
+        baseOffset = transform.position - player.transform.position;
     }
 
     void Update()
     {
-        var xDif = Math.Abs(player.transform.position.x - transform.position.x);
-        var yDif = Math.Abs(player.transform.position.y - transform.position.y);
-        if (xDif > maxDifX || yDif > maxDifY)
-        {
-            var moveTemp = player.transform.position;
-            moveTemp.z = transform.position.z;
-            transform.position = Vector3.MoveTowards(transform.position, moveTemp, playerScript.xSpeed * Time.deltaTime);
-        }
+        var curSpeed = Vector3.Distance(player.transform.position, transform.position) / normalOffset * playerScript.xSpeed;
+        var moveTemp = player.transform.position;
+        moveTemp.z = transform.position.z;
+        transform.position = Vector3.MoveTowards(transform.position, moveTemp, curSpeed * Time.deltaTime);
     }
 
     public override void Reset()
     {
-        transform.position = player.transform.position + offset;
+        transform.position = player.transform.position + baseOffset;
     }
 }

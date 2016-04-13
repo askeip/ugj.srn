@@ -4,22 +4,21 @@ using System;
 
 public class Monster : DarkObject {
     public int damage;
-    //private Vector3 initPosition;
     private GameObject player;
     private Rigidbody2D body;
     public Vector3 playerPosition;
     public float maxSpeed;
     private bool facingRight;
     private float xSpeed;
-    private int dir;
+    private int direction;
+    public float followDistance = 2;
 
     private Animator anim;
 
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
-        dir = -1;
+        direction = -1;
         anim = gameObject.GetComponent<Animator>();
-        //initPosition = transform.position;
         PreStart();
         body = GetComponent<Rigidbody2D>();
 	}
@@ -45,28 +44,23 @@ public class Monster : DarkObject {
 
     void MakeMove()
     {
-        xSpeed = 0;
+        xSpeed = maxSpeed / 2 * direction; // constant
         if (isActive)
         {
             playerPosition = player.transform.position;
             float deltaY = player.transform.position.y - transform.position.y;
-            if (Vector3.Distance(player.transform.position, transform.position) < 1 && Math.Abs(deltaY) < 0.2) // TODO make global constant or count it
+            float deltaX = player.transform.position.x - transform.position.x;
+            if (Vector3.Distance(player.transform.position, transform.position) < followDistance && Math.Abs(deltaY) < 0.2 &&
+                Math.Sign(deltaX) == direction) // TODO make global constant or calculate it
             {
-                dir = Math.Sign(player.transform.position.x - transform.position.x);
-                xSpeed = dir * maxSpeed;
-            } else {
-                xSpeed = maxSpeed / 2 * dir;
+                xSpeed = direction * maxSpeed;
             }
-        }
-        else
-        {
-            xSpeed = maxSpeed / 2 * dir;
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "MonsterBorder")
-            dir *= -1;
+            direction *= -1;
     }
 }
