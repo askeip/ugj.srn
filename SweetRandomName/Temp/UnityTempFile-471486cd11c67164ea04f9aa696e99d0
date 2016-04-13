@@ -81,11 +81,14 @@ Assets/Scripts/BackgroundScript.cs
 Assets/Scripts/CameraMovingScript.cs
 Assets/Scripts/CanvasScript.cs
 Assets/Scripts/Changable.cs
+Assets/Scripts/CloudScript.cs
 Assets/Scripts/DarkObject.cs
+Assets/Scripts/DialogScript.cs
 Assets/Scripts/GlassesScript.cs
 Assets/Scripts/HeroScript.cs
 Assets/Scripts/MainMenuScript.cs
 Assets/Scripts/Monster.cs
+Assets/Scripts/MovablePlatform.cs
 Assets/Scripts/MovableWorldObject.cs
 Assets/Scripts/NormalObject.cs
 Assets/Scripts/World.cs

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class HeroScript : WorldObject 
 {
     public Canvas canvas;
+    private CanvasScript canvasScript;
     public Text text;
 
     private Dictionary<Worlds, LayerMask> worldLayer;
@@ -39,6 +40,7 @@ public class HeroScript : WorldObject
 	void Start()
 	{
         text.text = "kek";
+        canvasScript = canvas.GetComponent<CanvasScript>();
         GeneralStart();
         animator = gameObject.GetComponent<Animator>();
         hp = 1;
@@ -83,6 +85,12 @@ public class HeroScript : WorldObject
         base.Reset();
         HasGlasses = checkpointHasGlasseValue;
 	}
+
+    public void ShowText(float time)
+    {
+        canvas.enabled = true;
+        canvasScript.ShowText(time);
+    }
 
 	void FixedUpdate()
 	{

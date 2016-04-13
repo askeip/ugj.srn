@@ -49,11 +49,14 @@
      <Compile Include="Assets\Scripts\CameraMovingScript.cs" />
      <Compile Include="Assets\Scripts\CanvasScript.cs" />
      <Compile Include="Assets\Scripts\Changable.cs" />
+     <Compile Include="Assets\Scripts\CloudScript.cs" />
      <Compile Include="Assets\Scripts\DarkObject.cs" />
+     <Compile Include="Assets\Scripts\DialogScript.cs" />
      <Compile Include="Assets\Scripts\GlassesScript.cs" />
      <Compile Include="Assets\Scripts\HeroScript.cs" />
      <Compile Include="Assets\Scripts\MainMenuScript.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\MovablePlatform.cs" />
      <Compile Include="Assets\Scripts\MovableWorldObject.cs" />
      <Compile Include="Assets\Scripts\NormalObject.cs" />
      <Compile Include="Assets\Scripts\World.cs" />
