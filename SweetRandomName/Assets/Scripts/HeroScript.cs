@@ -13,7 +13,6 @@ public class HeroScript : WorldObject
 	public float xSpeed;
 	public float ySpeed;
 	
-	Rigidbody2D playerRigidbody2D;
 	private bool facingRight;
 	
 	public bool grounded = false;
@@ -36,6 +35,7 @@ public class HeroScript : WorldObject
     private bool checkpointHasGlasseValue;
     public bool HasGlasses;
 	
+    public Vector2 additionalVelocity;
 	
 	void Start()
 	{
@@ -47,7 +47,7 @@ public class HeroScript : WorldObject
 		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
 		//initPosition = transform.position;
         //initVelocity = new Vector2(0, 0);
-		playerRigidbody2D = GetComponent<Rigidbody2D>();
+		//playerRigidbody2D = GetComponent<Rigidbody2D>();
         CreateWorldLayerDict();
         checkpointHasGlasseValue = HasGlasses;
         Reset();
@@ -69,11 +69,7 @@ public class HeroScript : WorldObject
         if (Input.GetKeyDown(KeyCode.Tab) && HasGlasses) {
 			world.ChangeWorld();
 		}
-        if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
-		{
-			playerRigidbody2D.velocity = new Vector2(playerRigidbody2D.velocity.x, ySpeed);
-		}
-        animator.SetBool("Moving", playerRigidbody2D.velocity.x != 0);
+        animator.SetBool("Moving", objRigidbody2D.velocity.x != additionalVelocity.x && objRigidbody2D.velocity.x != 0);
         animator.SetBool("Jumping", !grounded);
 	}
 	
@@ -97,7 +93,14 @@ public class HeroScript : WorldObject
         grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
 		float xMove = Input.GetAxis("Horizontal");
 		
-        playerRigidbody2D.velocity = new Vector2 (xSpeed * xMove,playerRigidbody2D.velocity.y);
+        objRigidbody2D.velocity = new Vector2 (xSpeed * xMove,objRigidbody2D.velocity.y);
+
+        if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
+        {
+            objRigidbody2D.velocity = new Vector2(objRigidbody2D.velocity.x, ySpeed);
+        }
+
+        objRigidbody2D.velocity += additionalVelocity;
 		
 		if (xMove > 0 && !facingRight)
 			Flip ();
