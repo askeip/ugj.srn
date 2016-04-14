@@ -15,9 +15,14 @@ public class GlassesScript : WorldObject
     {
         GeneralStart();
         heroScript = player.GetComponent<HeroScript>();
-        checkpointActive = true;
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         colliders = gameObject.GetComponents<Collider2D>();
+    }
+
+    public override void GeneralStart()
+    {
+        base.GeneralStart();
+        checkpointActive = true;
     }
 
     void Update()

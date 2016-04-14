@@ -7,11 +7,17 @@ public class DialogScript : WorldObject
     public float textShowingTime;
     public bool shouldOff;
     private bool active = true;
+    private bool wasActive;
 
     void Start()
     {
-        active = true;
         GeneralStart();
+    }
+
+    public override void GeneralStart()
+    {
+        wasActive = active;
+        base.GeneralStart();
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -27,7 +33,7 @@ public class DialogScript : WorldObject
 
     public override void Reset()
     {
-        active = true;
+        active = wasActive;
         base.Reset();
     }
 }

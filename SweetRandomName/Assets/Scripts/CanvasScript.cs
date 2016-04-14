@@ -11,9 +11,14 @@ public class CanvasScript : WorldObject
 
     public void Start()
     {
-        baseOffset = transform.position - player.transform.position;
+        GeneralStart();
     }
 
+    public override void GeneralStart()
+    {
+        base.GeneralStart();
+        baseOffset = transform.position - player.transform.position;
+    }
     void Update()
     {
         transform.position = player.transform.position;

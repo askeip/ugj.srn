@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\CameraMovingScript.cs" />
      <Compile Include="Assets\Scripts\CanvasScript.cs" />
      <Compile Include="Assets\Scripts\Changable.cs" />
+     <Compile Include="Assets\Scripts\CheckpointScript.cs" />
      <Compile Include="Assets\Scripts\CloudScript.cs" />
      <Compile Include="Assets\Scripts\DarkObject.cs" />
      <Compile Include="Assets\Scripts\DialogScript.cs" />

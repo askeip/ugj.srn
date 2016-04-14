@@ -1,18 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FinishScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CheckpointScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\StunScript.cs" Line="24" Column="6" />
-      <File FileName="Assets\Scripts\HeroScript.cs" Line="76" Column="29" />
+      <File FileName="Assets\Scripts\CheckpointScript.cs" Line="8" Column="9" />
+      <File FileName="Assets\Scripts\FinishScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StunScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HeroScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CameraMovingScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Monster.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DarkObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Changable.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\NormalObject.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\World.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Changable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\WorldObject.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\MainMenuScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GlassesScript.cs" Line="26" Column="46" />
+      <File FileName="Assets\Scripts\WorldObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GlassesScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CanvasScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MovablePlatform.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DialogScript.cs" Line="1" Column="1" />
@@ -20,7 +22,7 @@
       <File FileName="Assets\Scripts\BackgroundScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GunScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ShotScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FinishScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InstructionsTabScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

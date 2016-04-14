@@ -22,7 +22,7 @@ public class Monster : DarkObject {
         player = GameObject.FindGameObjectWithTag("Player");
         direction = -1;
         anim = gameObject.GetComponent<Animator>();
-        PreStart();
+        GeneralStart();
         body = GetComponent<Rigidbody2D>();
 	}
 	

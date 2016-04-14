@@ -3,12 +3,12 @@ using System.Collections;
 
 public class NormalObject : Changable {
 	void Start() {
-		PreStart();
+        GeneralStart();
 	}
 
-    protected override void PreStart()
+    public override void GeneralStart()
     {
-        base.PreStart();
+        base.GeneralStart();
         activeWorld = Worlds.NormalWorld;
         gameObject.layer = (int)activeWorld;
     }

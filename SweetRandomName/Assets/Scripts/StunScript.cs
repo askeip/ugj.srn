@@ -5,10 +5,17 @@ public class StunScript : WorldObject
 {
     public float StunTime;
     private bool activeStun = true;
+    private bool wasActiveStun;
 
     void Start()
     {
         GeneralStart();
+    }
+
+    public override void GeneralStart()
+    {
+        wasActiveStun = activeStun;
+        base.GeneralStart();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -23,7 +30,7 @@ public class StunScript : WorldObject
 
     public override void Reset()
     {
-        activeStun = true;
+        activeStun = wasActiveStun;
         base.Reset();
     }
 }

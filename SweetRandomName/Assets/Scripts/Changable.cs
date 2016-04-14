@@ -7,11 +7,12 @@ public class Changable : WorldObject {
     protected SpriteRenderer[] sprites;
     protected bool isActive;
 
-	protected virtual void PreStart() {
-		sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
-		world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
-        GeneralStart();
-	}
+    public override void GeneralStart()
+    {
+        sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
+        world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
+        base.GeneralStart();
+    }
 
     protected virtual void ChangeWorld() {
         isActive = world.CurWorld == activeWorld;

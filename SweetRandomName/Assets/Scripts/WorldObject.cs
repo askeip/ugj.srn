@@ -6,7 +6,7 @@ public class WorldObject : MonoBehaviour {
     protected Rigidbody2D objRigidbody2D;
     protected Vector3 initVelocity;
 
-    protected virtual void GeneralStart()
+    public virtual void GeneralStart()
     {
         initPosition = transform.position;
         objRigidbody2D = gameObject.GetComponent<Rigidbody2D>();

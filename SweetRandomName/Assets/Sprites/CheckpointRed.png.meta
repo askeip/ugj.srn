@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: c007c26239340f041addce58108a4539
+timeCreated: 1460652281
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CheckpointRed 0
+    21300002: CheckpointRed 1
+    21300004: CheckpointRed 2
+    21300006: CheckpointRed 3
+    21300008: CheckpointRed 4
+    21300010: CheckpointRed 5
+    21300012: CheckpointRed 6
+    21300014: CheckpointRed 7
+    21300016: CheckpointRed 8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 128
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CheckpointRed 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 13}
+        - {x: 5, y: 30}
+        - {x: -11, y: 30}
+        - {x: -11, y: 3}
+    - name: CheckpointRed 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 21}
+        - {x: 7, y: 30}
+        - {x: -10, y: 30}
+        - {x: -10, y: 5}
+    - name: CheckpointRed 2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 30}
+        - {x: -10, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 25}
+        - {x: 7, y: 29}
+        - {x: 6, y: 30}
+    - name: CheckpointRed 3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 21}
+        - {x: 7, y: 30}
+        - {x: -10, y: 30}
+        - {x: -10, y: 5}
+    - name: CheckpointRed 4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 13}
+        - {x: 5, y: 30}
+        - {x: -11, y: 30}
+        - {x: -11, y: 3}
+    - name: CheckpointRed 5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 18}
+        - {x: -6, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 18}
+        - {x: 6, y: 29}
+        - {x: 4, y: 30}
+        - {x: -8, y: 30}
+        - {x: -11, y: 27}
+    - name: CheckpointRed 6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 30}
+        - {x: -10, y: 30}
+        - {x: -10, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 4}
+        - {x: 7, y: 7}
+    - name: CheckpointRed 7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 18}
+        - {x: -6, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 18}
+        - {x: 6, y: 29}
+        - {x: 4, y: 30}
+        - {x: -8, y: 30}
+        - {x: -11, y: 27}
+    - name: CheckpointRed 8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 13}
+        - {x: 5, y: 30}
+        - {x: -11, y: 30}
+        - {x: -11, y: 3}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
