@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{13CDC87A-56F1-3D33-7542-5C86F059E859}</ProjectGuid>
+    <ProjectGuid>{3813829C-6648-561E-6728-874FF97EDC7E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,25 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackgroundScript.cs" />
-     <Compile Include="Assets\Scripts\CameraMovingScript.cs" />
-     <Compile Include="Assets\Scripts\CanvasScript.cs" />
-     <Compile Include="Assets\Scripts\Changable.cs" />
-     <Compile Include="Assets\Scripts\CloudScript.cs" />
-     <Compile Include="Assets\Scripts\DarkObject.cs" />
-     <Compile Include="Assets\Scripts\DialogScript.cs" />
-     <Compile Include="Assets\Scripts\FinishScript.cs" />
-     <Compile Include="Assets\Scripts\GlassesScript.cs" />
-     <Compile Include="Assets\Scripts\GunScript.cs" />
-     <Compile Include="Assets\Scripts\HeroScript.cs" />
-     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
-     <Compile Include="Assets\Scripts\Monster.cs" />
-     <Compile Include="Assets\Scripts\MovablePlatform.cs" />
-     <Compile Include="Assets\Scripts\NormalObject.cs" />
-     <Compile Include="Assets\Scripts\ShotScript.cs" />
-     <Compile Include="Assets\Scripts\StunScript.cs" />
-     <Compile Include="Assets\Scripts\World.cs" />
-     <Compile Include="Assets\Scripts\WorldObject.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.js" />
      <None Include="Assets\AnimationImporter-master\Assets\AnimationImporter\readme.txt" />
      <None Include="Assets\AnimationImporter-master\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">

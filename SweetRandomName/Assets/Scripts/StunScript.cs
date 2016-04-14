@@ -3,14 +3,12 @@ using System.Collections;
 
 public class StunScript : WorldObject
 {
-    private Collider2D stunCollider;
     public float StunTime;
     private bool activeStun = true;
 
     void Start()
     {
         GeneralStart();
-        stunCollider = gameObject.GetComponent<Collider2D>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
