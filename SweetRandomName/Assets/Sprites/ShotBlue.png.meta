@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9b354a04e67fccc46832fde2a6f4a277
-timeCreated: 1460570362
+timeCreated: 1460575248
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,12 @@ TextureImporter:
     21300006: ShotBlue 3
     21300008: ShotBlue 4
     21300010: ShotBlue 5
+    21300012: ShotBlue_0
+    21300014: ShotBlue_1
+    21300016: ShotBlue_2
+    21300018: ShotBlue_3
+    21300020: ShotBlue_4
+    21300022: ShotBlue_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

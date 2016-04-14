@@ -71,6 +71,11 @@ public class HeroScript : WorldObject
 		}
         animator.SetBool("Moving", objRigidbody2D.velocity.x != additionalVelocity.x && objRigidbody2D.velocity.x != 0);
         animator.SetBool("Jumping", !grounded);
+
+        if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
+        {
+            objRigidbody2D.velocity = new Vector2(objRigidbody2D.velocity.x, ySpeed);
+        }
 	}
 	
 	void GameOver() {
@@ -95,11 +100,6 @@ public class HeroScript : WorldObject
 		
         objRigidbody2D.velocity = new Vector2 (xSpeed * xMove,objRigidbody2D.velocity.y);
 
-        if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
-        {
-            objRigidbody2D.velocity = new Vector2(objRigidbody2D.velocity.x, ySpeed);
-        }
-
         objRigidbody2D.velocity += additionalVelocity;
 		
 		if (xMove > 0 && !facingRight)
@@ -118,7 +118,7 @@ public class HeroScript : WorldObject
 	
 	void OnTriggerEnter2D(Collider2D other)
 	{
-        if (other.tag == "Abyss" || other.tag == "Spikes") 
+        if (other.tag == "Abyss" || other.tag == "Spikes" || other.tag == "Shot") 
 		{
 			GameOver();
 		}

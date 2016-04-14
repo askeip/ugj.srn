@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1a1bf0f1db6f47d499e79f42789b1e67
-timeCreated: 1460570366
+timeCreated: 1460575251
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,12 @@ TextureImporter:
     21300006: ShotRed 3
     21300008: ShotRed 4
     21300010: ShotRed 5
+    21300012: ShotRed_0
+    21300014: ShotRed_1
+    21300016: ShotRed_2
+    21300018: ShotRed_3
+    21300020: ShotRed_4
+    21300022: ShotRed_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

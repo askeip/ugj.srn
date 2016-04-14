@@ -2,13 +2,13 @@
 using System.Collections;
 
 public class DarkObject : Changable {
-    private Transform anotherWorldObject;
+    //private Transform anotherWorldObject;
 
 	void Start() {
         PreStart();
 	}
 
-    protected void PreStart()
+    protected override void PreStart()
     {
         base.PreStart();
         activeWorld = Worlds.DarkWorld;

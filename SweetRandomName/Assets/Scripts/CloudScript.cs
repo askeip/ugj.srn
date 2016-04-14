@@ -6,7 +6,6 @@ public class CloudScript : WorldObject
 {
 
     public float speed = 0.05f;
-    private Rigidbody2D rigidbody2D;
 
     public GameObject rightBorder;
     
@@ -14,13 +13,12 @@ public class CloudScript : WorldObject
     void Start()
     {
         GeneralStart();
-        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        rigidbody2D.velocity = new Vector2(-speed, rigidbody2D.velocity.y);
+        objRigidbody2D.velocity = new Vector2(-speed, objRigidbody2D.velocity.y);
     }
 
     void OnTriggerEnter2D(Component other)
