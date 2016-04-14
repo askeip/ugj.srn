@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\GlassesScript.cs" />
      <Compile Include="Assets\Scripts\GunScript.cs" />
      <Compile Include="Assets\Scripts\HeroScript.cs" />
+     <Compile Include="Assets\Scripts\InstructionsTabScript.cs" />
      <Compile Include="Assets\Scripts\MainMenuScript.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\MovablePlatform.cs" />
