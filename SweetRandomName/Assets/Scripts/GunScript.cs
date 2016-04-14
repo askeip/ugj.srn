@@ -3,16 +3,18 @@ using System.Collections;
 
 public class GunScript : WorldObject
 {
-
     public Transform FirePoint;
     public GameObject Shot;
     private float timePast;
     public float cooldown;
     public float speed;
 
+    public Animator anim;
+
     // Use this for initialization
     void Start()
     {
+        anim = gameObject.GetComponent<Animator>();
         GeneralStart();
         timePast = int.MaxValue;
     }
@@ -20,6 +22,7 @@ public class GunScript : WorldObject
     // Update is called once per frame
     void Update()
     {
+        anim.SetFloat("Time", timePast / cooldown);
         timePast += Time.deltaTime;
         if (timePast >= cooldown)
         {
