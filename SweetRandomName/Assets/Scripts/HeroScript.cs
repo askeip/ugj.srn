@@ -34,6 +34,7 @@ public class HeroScript : WorldObject
 
     private bool checkpointHasGlasseValue;
     public bool HasGlasses;
+    public float stunTime;
 	
     public Vector2 additionalVelocity;
 	
@@ -72,7 +73,7 @@ public class HeroScript : WorldObject
         animator.SetBool("Moving", objRigidbody2D.velocity.x != additionalVelocity.x && objRigidbody2D.velocity.x != 0);
         animator.SetBool("Jumping", !grounded);
 
-        if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
+        if (stunTime <= 0 && grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
         {
             objRigidbody2D.velocity = new Vector2(objRigidbody2D.velocity.x, ySpeed);
         }
@@ -95,17 +96,24 @@ public class HeroScript : WorldObject
 
 	void FixedUpdate()
 	{
-        grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
-		float xMove = Input.GetAxis("Horizontal");
+        if (stunTime <= 0)
+        {
+            grounded = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
+            float xMove = Input.GetAxis("Horizontal");
 		
-        objRigidbody2D.velocity = new Vector2 (xSpeed * xMove,objRigidbody2D.velocity.y);
+            objRigidbody2D.velocity = new Vector2(xSpeed * xMove, objRigidbody2D.velocity.y);
 
+            if (xMove > 0 && !facingRight)
+                Flip();
+            else if (xMove < 0 && facingRight)
+                Flip();
+        }
+        else
+        {
+            stunTime -= Time.fixedDeltaTime;
+            objRigidbody2D.velocity = new Vector2(0, objRigidbody2D.velocity.y);
+        }
         objRigidbody2D.velocity += additionalVelocity;
-		
-		if (xMove > 0 && !facingRight)
-			Flip ();
-		else if (xMove < 0 && facingRight)
-			Flip ();
 	}
 	
 	void Flip()

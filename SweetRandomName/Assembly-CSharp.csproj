@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\MovablePlatform.cs" />
      <Compile Include="Assets\Scripts\NormalObject.cs" />
      <Compile Include="Assets\Scripts\ShotScript.cs" />
+     <Compile Include="Assets\Scripts\StunScript.cs" />
      <Compile Include="Assets\Scripts\World.cs" />
      <Compile Include="Assets\Scripts\WorldObject.cs" />
      <None Include="Assets\AnimationImporter-master\Assets\AnimationImporter\readme.txt" />

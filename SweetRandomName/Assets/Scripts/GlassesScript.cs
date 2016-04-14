@@ -6,14 +6,26 @@ public class GlassesScript : WorldObject
     private SpriteRenderer spriteRenderer;
     private Collider2D[] colliders;
 
+    public GameObject player;
+    private HeroScript heroScript;
+
     private bool checkpointActive;
 
     void Start()
     {
         GeneralStart();
+        heroScript = player.GetComponent<HeroScript>();
         checkpointActive = true;
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         colliders = gameObject.GetComponents<Collider2D>();
+    }
+
+    void Update()
+    {
+        if (heroScript.stunTime > 0)
+            objRigidbody2D.gravityScale = 0.1f;
+        else
+            objRigidbody2D.gravityScale = 0f;
     }
 
     void OnCollisionEnter2D(Collision2D other) {
