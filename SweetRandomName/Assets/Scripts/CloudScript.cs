@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class CloudScript : WorldObject
 {
-
     public float speed = 0.05f;
 
     public GameObject rightBorder;

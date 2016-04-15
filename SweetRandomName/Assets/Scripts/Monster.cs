@@ -5,7 +5,6 @@ using System;
 public class Monster : DarkObject {
     public int damage;
     private GameObject player;
-    private Rigidbody2D body;
     public Vector3 playerPosition;
     public float maxSpeed;
     private bool facingRight;
@@ -16,6 +15,8 @@ public class Monster : DarkObject {
     public float checkersRadius = 0.1f;
     public LayerMask DarkLayer;
 
+    public Vector2 additionalVelocity;
+
     private Animator anim;
 
 	void Start () {
@@ -23,7 +24,7 @@ public class Monster : DarkObject {
         direction = -1;
         anim = gameObject.GetComponent<Animator>();
         GeneralStart();
-        body = GetComponent<Rigidbody2D>();
+        objRigidbody2D = GetComponent<Rigidbody2D>();
 	}
 	
 	void Update () {
@@ -34,7 +35,8 @@ public class Monster : DarkObject {
             Flip();
         else if (xSpeed < 0 && facingRight)
             Flip();
-        body.velocity = new Vector2(xSpeed, body.velocity.y);
+        objRigidbody2D.velocity = new Vector2(xSpeed, objRigidbody2D.velocity.y);
+        objRigidbody2D.velocity += additionalVelocity;
 	}
 
     void Flip()

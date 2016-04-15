@@ -38,7 +38,7 @@ public class DialogScript : WorldObject
 
     public override void Reset()
     {
-        active = wasActive;
         base.Reset();
+        active = wasActive;
     }
 }

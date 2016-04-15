@@ -5,6 +5,7 @@ public class WorldObject : MonoBehaviour {
     protected Vector3 initPosition;
     protected Rigidbody2D objRigidbody2D;
     protected Vector3 initVelocity;
+    public bool ShouldnotReset;
 
     public virtual void GeneralStart()
     {
@@ -14,8 +15,11 @@ public class WorldObject : MonoBehaviour {
     }
 
     public virtual void Reset() {
-        transform.position = initPosition;
-        if (objRigidbody2D != null)
-            objRigidbody2D.velocity = initVelocity;
+        if (!ShouldnotReset)
+        {
+            transform.position = initPosition;
+            if (objRigidbody2D != null)
+                objRigidbody2D.velocity = initVelocity;
+        }
     }
 }

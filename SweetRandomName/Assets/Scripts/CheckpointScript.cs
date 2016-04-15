@@ -4,9 +4,11 @@ using System.Collections;
 public class CheckpointScript : WorldObject
 {
     private bool active = true;
+    World world;
 
     void Start()
     {
+        world = FindObjectOfType<World>();
         GeneralStart();
     }
 
@@ -20,6 +22,7 @@ public class CheckpointScript : WorldObject
                 (obj as WorldObject).GeneralStart();
             }
             active = false;
+            world.InitWorld = world.CurWorld;
         }        
     }
 }

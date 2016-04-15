@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 70ec58194347877479056df4d148625f
-timeCreated: 1460536088
+timeCreated: 1460721989
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -62,10 +62,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 21}
-        - {x: -16, y: 0}
-        - {x: 16, y: 0}
-        - {x: 16, y: 17}
+      - - {x: -15, y: 21}
+        - {x: -16, y: 20}
+        - {x: -16, y: 3}
+        - {x: 16, y: 3}
+        - {x: 16, y: 18}
         - {x: 13, y: 21}
     outline: []
   spritePackingTag: 
