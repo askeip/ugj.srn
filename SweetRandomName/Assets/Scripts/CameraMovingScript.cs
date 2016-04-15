@@ -11,15 +11,15 @@ public class CameraMovingScript : WorldObject
     public Vector3 baseOffset;
 
     public void Start()
-    {
-        GeneralStart(); //?
+    { 
         playerScript = player.GetComponent<HeroScript>();
+        GeneralStart();
     }
 
     public override void GeneralStart()
     {
-        base.GeneralStart();
         baseOffset = transform.position - player.transform.position;
+        base.GeneralStart();
     }
 
     void Update()

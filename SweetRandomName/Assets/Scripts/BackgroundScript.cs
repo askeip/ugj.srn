@@ -14,13 +14,12 @@ public class BackgroundScript : Changable
     {
         cameraMovingScript = mainCamera.GetComponent<CameraMovingScript>();
         GeneralStart();
-        ChangeWorld();
     }
 
     public override void GeneralStart()
     {
-        base.GeneralStart();
         baseOffset = transform.position - mainCamera.transform.position;
+        base.GeneralStart();
     }
 
     protected override void ChangeWorld()

@@ -27,8 +27,13 @@ public class DialogScript : WorldObject
             var playerScript = other.gameObject.GetComponent<HeroScript>();
             playerScript.text.text = dialog;
             playerScript.ShowText(textShowingTime);
-            active = !shouldOff;
         }
+    }
+
+    void OnTriggerExit2D(Component other)
+    {
+        if (other.tag == "Player" && shouldOff)
+            active = false;
     }
 
     public override void Reset()

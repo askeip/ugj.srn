@@ -11,6 +11,7 @@ public class Changable : WorldObject {
     {
         sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
         world = GameObject.FindObjectsOfType(typeof(World))[0] as World;
+        ChangeWorld();
         base.GeneralStart();
     }
 

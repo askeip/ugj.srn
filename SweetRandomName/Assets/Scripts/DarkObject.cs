@@ -10,10 +10,10 @@ public class DarkObject : Changable {
 
     public override void GeneralStart()
     {
-        base.GeneralStart();
         heroScript = FindObjectOfType<HeroScript>();
         activeWorld = Worlds.DarkWorld;
         gameObject.layer = (int)activeWorld;
+        base.GeneralStart();
     }
 	
 
