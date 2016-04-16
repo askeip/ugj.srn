@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: b5aca1a747e04214f8da39211e35cf8e
+timeCreated: 1460789648
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MainMenuHero 0
+    21300002: MainMenuHero 1
+    21300004: MainMenuHero 2
+    21300006: MainMenuHero 3
+    21300008: MainMenuHero 4
+    21300010: MainMenuHero 5
+    21300012: MainMenuHero 6
+    21300014: MainMenuHero 7
+    21300016: MainMenuHero 8
+    21300018: MainMenuHero 9
+    21300020: MainMenuHero 10
+    21300022: MainMenuHero 11
+    21300024: MainMenuHero 12
+    21300026: MainMenuHero 13
+    21300028: MainMenuHero 14
+    21300030: MainMenuHero 15
+    21300032: MainMenuHero 16
+    21300034: MainMenuHero 17
+    21300036: MainMenuHero 18
+    21300038: MainMenuHero 19
+    21300040: MainMenuHero 20
+    21300042: MainMenuHero 21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MainMenuHero 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 8}
+        - {x: -3, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 9}
+        - {x: 13, y: 26}
+        - {x: 5, y: 28}
+    - name: MainMenuHero 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 11}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 23}
+        - {x: 7, y: 28}
+    - name: MainMenuHero 2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 11}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 23}
+        - {x: 7, y: 28}
+    - name: MainMenuHero 3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28}
+        - {x: -12, y: 21}
+        - {x: -12, y: 6}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 9}
+        - {x: 13, y: 26}
+        - {x: 5, y: 28}
+    - name: MainMenuHero 4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 11}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 23}
+        - {x: 7, y: 28}
+    - name: MainMenuHero 5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28}
+        - {x: -12, y: 21}
+        - {x: -12, y: 6}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 9}
+        - {x: 13, y: 26}
+        - {x: 5, y: 28}
+    - name: MainMenuHero 6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 11}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 23}
+        - {x: 7, y: 28}
+    - name: MainMenuHero 7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 11}
+        - {x: -4, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 23}
+        - {x: 7, y: 28}
+    - name: MainMenuHero 8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 24}
+        - {x: -12, y: 8}
+        - {x: -3, y: 3}
+        - {x: 9, y: 3}
+        - {x: 13, y: 9}
+        - {x: 13, y: 26}
+        - {x: 5, y: 28}
+    - name: MainMenuHero 9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28}
+        - {x: -12, y: 23}
+        - {x: -12, y: 8}
+        - {x: -3, y: 3}
+        - {x: 10, y: 3}
+        - {x: 12, y: 6}
+        - {x: 12, y: 26}
+        - {x: 5, y: 28}
+    - name: MainMenuHero 10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 28}
+        - {x: -11, y: 21}
+        - {x: -11, y: 13}
+        - {x: -1, y: 3}
+        - {x: 7, y: 3}
+        - {x: 12, y: 8}
+        - {x: 12, y: 20}
+        - {x: 8, y: 28}
+    - name: MainMenuHero 11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 28}
+        - {x: -12, y: 28}
+        - {x: -13, y: 24}
+        - {x: -13, y: 7}
+        - {x: -5, y: 2}
+        - {x: 6, y: 2}
+        - {x: 13, y: 11}
+        - {x: 13, y: 20}
+        - {x: 12, y: 25}
+    - name: MainMenuHero 12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 28}
+        - {x: -12, y: 28}
+        - {x: -12, y: 3}
+        - {x: 6, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 17}
+        - {x: 11, y: 24}
+    - name: MainMenuHero 13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 23}
+        - {x: 5, y: 28}
+        - {x: -7, y: 28}
+        - {x: -10, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 12}
+        - {x: -3, y: 3}
+        - {x: 6, y: 3}
+        - {x: 13, y: 11}
+        - {x: 13, y: 17}
+    - name: MainMenuHero 14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28}
+        - {x: -11, y: 28}
+        - {x: -12, y: 20}
+        - {x: -12, y: 11}
+        - {x: -7, y: 4}
+        - {x: -4, y: 3}
+        - {x: 8, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 17}
+        - {x: 11, y: 24}
+    - name: MainMenuHero 15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 23}
+        - {x: -12, y: 10}
+        - {x: -6, y: 3}
+        - {x: 7, y: 3}
+        - {x: 13, y: 8}
+        - {x: 13, y: 19}
+        - {x: 9, y: 28}
+    - name: MainMenuHero 16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28}
+        - {x: -12, y: 23}
+        - {x: -12, y: 10}
+        - {x: -6, y: 3}
+        - {x: 7, y: 3}
+        - {x: 13, y: 8}
+        - {x: 13, y: 19}
+        - {x: 9, y: 28}
+    - name: MainMenuHero 17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28}
+        - {x: -11, y: 28}
+        - {x: -12, y: 21}
+        - {x: -12, y: 10}
+        - {x: -5, y: 3}
+        - {x: 7, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 17}
+        - {x: 11, y: 24}
+    - name: MainMenuHero 18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28}
+        - {x: -11, y: 28}
+        - {x: -12, y: 21}
+        - {x: -12, y: 10}
+        - {x: -5, y: 3}
+        - {x: 7, y: 3}
+        - {x: 13, y: 10}
+        - {x: 13, y: 17}
+        - {x: 11, y: 24}
+    - name: MainMenuHero 19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -9, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 10}
+        - {x: -5, y: 3}
+        - {x: 9, y: 3}
+        - {x: 11, y: 9}
+        - {x: 11, y: 22}
+        - {x: 6, y: 28}
+    - name: MainMenuHero 20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -9, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 10}
+        - {x: -5, y: 3}
+        - {x: 9, y: 3}
+        - {x: 11, y: 9}
+        - {x: 11, y: 23}
+        - {x: 5, y: 28}
+    - name: MainMenuHero 21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28}
+        - {x: -9, y: 27}
+        - {x: -12, y: 17}
+        - {x: -12, y: 10}
+        - {x: -5, y: 3}
+        - {x: 9, y: 3}
+        - {x: 11, y: 9}
+        - {x: 11, y: 22}
+        - {x: 6, y: 28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

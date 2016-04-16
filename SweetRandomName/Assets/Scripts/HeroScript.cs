@@ -67,13 +67,13 @@ public class HeroScript : WorldObject
             animator.runtimeAnimatorController = animControllers[0];
         else
             animator.runtimeAnimatorController = world.CurWorld == Worlds.NormalWorld ? animControllers[1] : animControllers[2];
-        if (Input.GetKeyDown(KeyCode.Tab) && HasGlasses) {
+        if ((Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.J)) && HasGlasses) {
 			world.ChangeWorld();
 		}
         animator.SetBool("Moving", objRigidbody2D.velocity.x != additionalVelocity.x && objRigidbody2D.velocity.x != 0);
         animator.SetBool("Jumping", !grounded);
 
-        if (stunTime <= 0 && grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.UpArrow))) 
+        if (stunTime <= 0 && grounded && (Input.GetKeyDown (KeyCode.Space) ||Input.GetKeyDown (KeyCode.K) || Input.GetKeyDown (KeyCode.UpArrow) || Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.Z))) 
         {
             objRigidbody2D.velocity = new Vector2(objRigidbody2D.velocity.x, ySpeed);
         }
@@ -91,6 +91,7 @@ public class HeroScript : WorldObject
     public void ShowText(float time)
     {
         canvas.enabled = true;
+        text.color = new Color(255, 255, 255);
         canvasScript.ShowText(time);
     }
 

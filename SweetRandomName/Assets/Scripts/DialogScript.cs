@@ -20,7 +20,7 @@ public class DialogScript : WorldObject
         base.GeneralStart();
     }
 
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player" && active)
         {
