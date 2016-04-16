@@ -49,9 +49,19 @@ public class Monster : DarkObject {
 
     void MakeMove()
     {
-        var frontGrounded = Physics2D.OverlapCircle(frontGroundChecker.position,
+        var colls = Physics2D.OverlapCircleAll(frontGroundChecker.position,
             checkersRadius,
             DarkLayer);
+        
+        var frontGrounded = false;
+        if (colls.Length == 0)
+            frontGrounded = false;
+        foreach (var coll in colls)
+        {
+            frontGrounded = !coll.isTrigger;
+            if (frontGrounded)
+                break;
+        }
         if (!frontGrounded)
             direction *= -1;
         xSpeed = maxSpeed / 2 * direction; // constant

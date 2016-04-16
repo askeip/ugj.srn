@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ShotScript : NormalObject
+public class ShotScript : WorldObject
 {
     public float speed;
     public float timer;
