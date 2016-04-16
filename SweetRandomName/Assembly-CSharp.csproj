@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\CloudScript.cs" />
      <Compile Include="Assets\Scripts\DarkObject.cs" />
      <Compile Include="Assets\Scripts\DialogScript.cs" />
+     <Compile Include="Assets\Scripts\FinalSceneScript.cs" />
      <Compile Include="Assets\Scripts\FinishScript.cs" />
      <Compile Include="Assets\Scripts\GlassesScript.cs" />
      <Compile Include="Assets\Scripts\GunScript.cs" />
