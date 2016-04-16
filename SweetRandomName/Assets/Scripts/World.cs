@@ -12,11 +12,7 @@ public class World : MonoBehaviour {
     public Worlds InitWorld;
 
 	void Start() {
-        InitWorld = Worlds.NormalWorld;
         DefaultValues();
-        Physics2D.IgnoreLayerCollision((int)Worlds.NormalWorld, (int)Worlds.DarkWorld);
-        Physics2D.IgnoreLayerCollision((int)Worlds.DarkWorld, playerLayer);
-        Physics2D.IgnoreLayerCollision((int)Worlds.NormalWorld, playerLayer, false);
 	}
 
     private void DefaultValues()

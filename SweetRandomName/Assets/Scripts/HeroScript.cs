@@ -99,8 +99,15 @@ public class HeroScript : WorldObject
 	{
         if (stunTime <= 0)
         {
-            var coll = Physics2D.OverlapArea(new Vector2(groundCheck.position.x - groundRadius, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
-            grounded = coll == null ? false : !coll.isTrigger;
+            var colls = Physics2D.OverlapAreaAll(new Vector2(groundCheck.position.x - groundRadius, groundCheck.position.y), new Vector2(groundCheck.position.x + groundRadius, groundCheck.position.y - groundRadius), worldLayer[world.CurWorld]);
+            if (colls.Length == 0)
+                grounded = false;
+            foreach (var coll in colls)
+            {
+                grounded = !coll.isTrigger;
+                if (grounded)
+                    break;
+            }
             float xMove = Input.GetAxis("Horizontal");
 		
             objRigidbody2D.velocity = new Vector2(xSpeed * xMove, objRigidbody2D.velocity.y);
