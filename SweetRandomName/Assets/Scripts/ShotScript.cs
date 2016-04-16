@@ -29,7 +29,7 @@ public class ShotScript : NormalObject
 
     void OnTriggerEnter2D(Component other)
     {
-        if (other.tag != "Dialog")
+        if (other.tag != "Dialog" && other.tag != "Cloud")
             Destroy(gameObject);
     }
     void OnCollisionEnter2D(Collision2D other)

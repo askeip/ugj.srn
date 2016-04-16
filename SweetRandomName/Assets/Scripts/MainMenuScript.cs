@@ -30,7 +30,7 @@ public class MainMenuScript : MonoBehaviour {
             foreach (var anim in animators)
                 anim.SetBool("ButtonPressed", buttonPressed);
             firstPanel.SetActive(false);
-            Invoke("ActivateEverything", 1.1f);
+            Invoke("ActivateEverything", 1f);
         }
 
     }
